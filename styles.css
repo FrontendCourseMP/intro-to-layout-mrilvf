@@ -1,0 +1,199 @@
+:root{
+    --first-color: black;
+    --second-color: MediumAquamarine;
+    --third-color: DodgerBlue;
+    --fourth-color: DarkGray;
+    --fifth-color: White;
+    --sixth-color:DarkCyan;
+}
+@font-face {
+    font-display: swap;
+    font-family: NTsomic;
+    font-style: normal;
+    src: url(C:/Users/wolfm/projects/fonts/NTSomic-Medium.ttf);
+}
+
+html {
+    font-size: 62.5%;
+  }  
+body{
+    font-family: 'NTsomic', sans-serif;
+    background-color: var(--fifth-color);
+    padding: 30px 160px;
+}
+.logo{
+    text-align: left;
+    text-decoration: none;
+    height: 25px;
+    width: 260px;
+}
+.h1_main{
+    display: inline-block;
+    color: var(--fourth-color);
+    font-size: 1.4rem;
+    font-weight: lighter;
+    text-align: match-parent;
+    vertical-align: middle;
+    padding: 8px 30px;
+    height: 28px;
+    width: 220px;
+}
+nav{
+    display: inline;
+    text-align: match-parent;
+    font-weight: normal;
+}
+.button_nav{
+    color: var(--first-color);
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: var(--fifth-color);
+    border: none;
+    padding: 8px 30px;
+    height: 13px;
+    width: 160px;
+}
+.button_input{
+    text-align: match-parent;
+    text-decoration: none;
+    color: var(--first-color);
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding: 8px 30px;
+    height: 13px;
+    width: 80px;
+}
+.button_reg{
+    text-align: right;
+    text-decoration: none;
+    background-image: linear-gradient(var(--sixth-color),var(--second-color));
+    color: var(--fifth-color);
+    font-size: 1.8rem;
+    font-weight: normal;
+    border-radius: 15px;
+    padding: 8px 30px;
+    height: 42px;
+    width: 257px;
+}
+
+h2{
+    color: var(--first-color);
+    font-size: 4.6rem;
+    font-weight: normal;
+}
+.h2_main{
+    display: inline-block;
+    color: var(--first-color);
+    font-size: 6rem;
+    font-weight:normal;
+    text-align: left;
+    vertical-align: middle;
+    height: 192px;
+    width: 973px;
+}
+.text_large{
+    color: var(--fourth-color);
+    font-weight:lighter;
+    font-size: 2.6rem;
+    text-align: left;
+    vertical-align: top;
+    height: 51px;
+    width: 820px;
+}
+.img_main-sub{
+    height: 234px;
+    width: 782px;
+}
+.form_try{
+    text-align: right;
+    text-decoration: none;
+    background-color: var(--fifth-color);
+    color: var(--fourth-color);
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding: 8px 30px;
+    height: 46px;
+    width: 750px;
+}
+.link_try{
+    text-align: right;
+    text-decoration: none;
+    background-image: linear-gradient(var(--sixth-color),var(--second-color));
+    color: var(--fifth-color);
+    font-size: 1.8rem;
+    font-weight: normal;
+    border-radius: 15px;
+    padding: 8px 30px;
+    height: 42px;
+    width: 220px;
+}
+.h3_analytics{
+    color: var(--first-color);
+    font-size: 3rem;
+    font-weight:normal;
+    text-align: match-parent;
+}
+.list_analytics{
+    display: inline;
+    text-align: left;
+}
+.text_small{
+    color: var(--fourth-color);
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: normal;
+    text-align: left;
+    padding: 8px 30px;
+}
+.link_details{
+    text-align: left;
+    text-decoration: none;
+    background-color: var(--fifth-color);
+    color: var(--first-color);
+    border: 2px solid black;
+    border-color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: normal;
+    border-radius: 15px;
+    padding: 8px 30px;
+    height: 42px;
+    width: 220px;
+}
+.h3_month{
+    color: var(--first-color);
+    font-size: 1.8rem;
+    font-weight:normal;
+    text-align: match-parent;
+
+}
+.h3_small{
+    color: var(--first-color);
+    font-size: 2.6rem;
+    font-weight:normal;
+    text-align: match-parent;
+}
+.text_price{
+    color: var(--third-color);
+    font-size: 3rem;
+    font-weight:normal;
+    text-align: match-parent;
+}
+.text_price-month{
+    color: var(--fourth-color);
+    font-size: 2.2rem;
+    font-weight:normal;
+    text-align: match-parent;
+}
+.list{
+    list-style: none;
+}
+.analytics{
+    color: var(--second-color)
+}
+.num{
+    color: var(--third-color)
+}
+.link_form{
+    text-decoration: none;
+}
