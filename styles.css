@@ -8,9 +8,9 @@
 }
 @font-face {
     font-display: swap;
-    font-family: NTsomic;
+    font-family: "NTsomic";
     font-style: normal;
-    src: url(C:/Users/wolfm/projects/fonts/NTSomic-Medium.ttf);
+    src: url(C:/Users/wolfm/projects/fonts/NTSomic-Medium.ttf) format('ttf');
 }
 
 html {
@@ -65,7 +65,7 @@ nav{
     text-decoration: none;
     color: var(--first-color);
     font-size: 1.8rem;
-    font-weight: normal;
+    font-weight: bolder;
     padding: 8px 30px;
     height: 13px;
     width: 80px;
@@ -77,7 +77,7 @@ nav{
     background-image: linear-gradient(var(--sixth-color),var(--second-color));
     color: var(--fifth-color);
     font-size: 1.8rem;
-    font-weight: normal;
+    font-weight: bolder;
     border-radius: 15px;
     padding: 8px 30px;
     height: 42px;
@@ -89,7 +89,7 @@ h2{
     line-height: normal;
     color: var(--first-color);
     font-size: 4.6rem;
-    font-weight: normal;
+    font-weight: bolder;
 }
 .h2_main{
     text-align: start;
@@ -97,7 +97,7 @@ h2{
     display: inline-block;
     color: var(--first-color);
     font-size: 6rem;
-    font-weight:normal;
+    font-weight:bolder;
     vertical-align: middle;
     height: 192px;
     width: 973px;
@@ -141,7 +141,7 @@ h2{
     line-height: normal;
     color: var(--first-color);
     font-size: 3rem;
-    font-weight:normal;
+    font-weight:bolder;
 }
 .list_analytics{
     text-align: start;
@@ -177,21 +177,21 @@ h2{
     line-height: normal;
     color: var(--first-color);
     font-size: 1.8rem;
-    font-weight:normal;
+    font-weight:bolder;
 }
 .h3_small{
     text-align: start;
     line-height: normal;
     color: var(--first-color);
     font-size: 2.6rem;
-    font-weight:normal;
+    font-weight:bolder;
 }
 .text_price{
     text-align: start;
     line-height: normal;
     color: var(--third-color);
     font-size: 3rem;
-    font-weight:normal;
+    font-weight: normal;
 }
 .text_price-month{
     text-align: start;
@@ -228,7 +228,7 @@ h2{
     line-height: normal;
     color: var(--first-color);
     font-size: 2rem;
-    font-weight:normal;
+    font-weight:bolder;
 }
 .list{
     list-style: none;
