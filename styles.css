@@ -19,14 +19,16 @@ html {
 body{
     font-family: 'NTsomic', sans-serif;
     background-color: var(--fifth-color);
-    padding: 30px 160px;
 }
+header{
+    background-color: var(--fifth-color);
+}
+
 .logo{
     text-align: start;
     line-height: normal;
     text-decoration: none;
-    height: 25px;
-    width: 260px;
+
 }
 .h1_main{
     text-align: start;
@@ -36,9 +38,6 @@ body{
     font-size: 1.4rem;
     font-weight: lighter;
     vertical-align: middle;
-    padding: 8px 30px;
-    height: 28px;
-    width: 220px;
 }
 nav{
     text-align: start;
@@ -55,9 +54,6 @@ nav{
     text-decoration: none;
     background-color: var(--fifth-color);
     border: none;
-    padding: 8px 30px;
-    height: 13px;
-    width: 160px;
 }
 .button_input{
     text-align: start;
@@ -66,9 +62,6 @@ nav{
     color: var(--first-color);
     font-size: 1.8rem;
     font-weight: bolder;
-    padding: 8px 30px;
-    height: 13px;
-    width: 80px;
 }
 .button_reg{
     text-align: start;
@@ -79,9 +72,6 @@ nav{
     font-size: 1.8rem;
     font-weight: bolder;
     border-radius: 15px;
-    padding: 8px 30px;
-    height: 42px;
-    width: 257px;
 }
 
 h2{
@@ -99,8 +89,6 @@ h2{
     font-size: 6rem;
     font-weight:bolder;
     vertical-align: middle;
-    height: 192px;
-    width: 973px;
 }
 .text_large{
     text-align: start;
@@ -108,8 +96,6 @@ h2{
     color: var(--fourth-color);
     font-weight:lighter;
     font-size: 2.6rem;
-    height: 51px;
-    width: 820px;
 }
 .form_try{
     text-align: start;
@@ -119,9 +105,6 @@ h2{
     color: var(--fourth-color);
     font-size: 1.8rem;
     font-weight: normal;
-    padding: 8px 30px;
-    height: 46px;
-    width: 750px;
 }
 .link_try{
     text-align: start;
@@ -132,9 +115,6 @@ h2{
     font-size: 1.8rem;
     font-weight: normal;
     border-radius: 15px;
-    padding: 8px 30px;
-    height: 42px;
-    width: 220px;
 }
 .h3_analytics{
     text-align: start;
@@ -155,7 +135,6 @@ h2{
     font-size: 1.4rem;
     font-weight: lighter;
     line-height: normal;
-    padding: 8px 30px;
 }
 .link_details{
     text-align: start;
@@ -168,9 +147,6 @@ h2{
     font-size: 1.8rem;
     font-weight: normal;
     border-radius: 15px;
-    padding: 8px 30px;
-    height: 42px;
-    width: 220px;
 }
 .h3_month{
     text-align: start;
@@ -211,8 +187,6 @@ h2{
     font-size: 1.8rem;
     font-weight: normal;
     border-radius: 20px;
-    height: 48px;
-    width: 48px;
 }
 .text_footer-links{
     text-align: start;
