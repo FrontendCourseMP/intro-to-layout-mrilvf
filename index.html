@@ -1,223 +1,232 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mpassistant</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
+    <title>mpassistant</title>
 </head>
-<body>
-    <header> 
-        <div>
-            <a class="logo" href="">
-                <img alt="логотип mpassistant">
-            </a>
-            <h1 class="h1 h1_main">Mpassistant аналитика и оцифровка продаж wildberries и ozon</h1>
-            <nav class="nav nav_main">
-                <button class="button button_nav">О нас</button>
-                <button class="button button_nav">Возможности</button>
-                <button class="button button_nav">Тарифы</button>
-            </nav>
-            <a class="button button_input" href="">Вход</a>
-            <a class="button button_reg" href="">Зарегистрироваться</a>
 
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <a href="" class="header__logo logo">
+                <img src="" alt="логотип mpassistant" class="logo__img">
+            </a>
+            <h1 class="title">Mpassistant аналитика и оцифровка продаж wildberries и ozon</h1>
+            <nav class="header__navigation navigation">
+                <button class="navigation__button">О нас</button>
+                <button class="navigation__button">Возможности</button>
+                <button class="navigation__button">Тарифы</button>
+            </nav>
+            <a href="" class="header__link--log">Вход</a>
+            <a href="" class="header__link--reg">Зарегистрироваться</a>
         </div>
     </header>
     <main>
-    <section>
-        <h2 class="h2 h2_main">
-            <span class="analytics">Внутренняя аналитика</span> и 
-            <span class="num">финансовый учет</span> для бизнеса на маркетплейсах ozon и wb
-        </h2>
-        <p class="text text_large">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе и анализе отчетов</p>
-        <img src="" alt="начните свой 3-дневный пробный период с неограниченным доступом ко всем возможностям">
-        <form action="" method="get">
-            <label class=" form form_try">
-              Введите ваш email
-              <input type="text" name="name">
-            </label>
-            <a class="link link_try">Попробовать</a>
-        </form>
-        <img class="img img_stat" alt="статистика">
-    </section>
-    
-    <section>
-        <h2 class="h2">Возможности сервиса</h2>
-        <ul class="list">
-            <li class="list list_analytics"> 
-                <h3 class="h3 h3_analytics">Финансовая аналитика</h3>
-                <h3 class="h3 h3_analytics">Инструменты финансовой аналитики</h3>
-                <ul>
-                    <li class="text text_small">Отчёт о прибыли и убытках(p&l)</li>
-                    <li class="text text_small">Отчёт о движении денежных средств(ддс)</li>
-                    <li class="text text_small">Журнал операций</li>
-                    <li class="text text_small">Сводка продаж</li>
-                    <li class="text text_small">Учёт самовыкупов</li>
-                </ul>
-                <a class="link link_try" href="">Попробовать бесплатно</a>
-                <img alt="таблица аналитики финансов">
-            </li>
-            <li class="list list_analytics">
-                <h3 class="h3 h3_analytics">товарная аналитика</h3>
-            </li>
-            <li class="list list_analytics">
-                <h3 class="h3 h3_analytics">аналитика внутренней рекламы</h3>
-            </li>
-            <li class="list list_analytics">
-                <h3 class="h3 h3_analytics">статистика</h3>
-            </li>
-            <li class="list list_analytics">
-                <h3 class="h3 h3_analytics">инструменты</h3>
-            </li>
-        </ul>
-        <img src="" alt="начните свой 3-дневный пробный период с неограниченным доступом ко всем возможностям">
-        <form action="" method="get">
-            <label class=" form form_try">
-              Введите ваш email
-              <input type="text" name="name">
-            </label>
-            <a class="link link_try" href="">Попробовать</a>
-        </form>
-    </section>
+        <section class="hero">
+            <div class="hero__wrapper">
+                <div class="hero__text-wrapper">
+                    <h2 class="hero__title">
+                        <span class="hero__title--green">Внутренняя аналитика</span> и
+                        <span class="hero__title--blue">финансовый учёт</span> для бизнеса на маркетплейсах Ozon и WB
+                    </h2>
+                    <p class="hero__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе и анализе
+                        отчётов</p>
+                    <div class="hero__feedback feedback">
+                        <p class="feedback__text"></p>
+                        <form action="" class="feedback__form">
+                            <label for="" class="feedback__label">
+                                <span class="visually-hidden"></span>
+                                <input type="text" class="feedback__input">
+                            </label>
+                            <button type="submit" class="feedback__button feedback__button--submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <img src="" alt="" class="hero__img">
+        </section>
 
-    <section>
-        <h2 class="h2">Собираем единые отчёты по всем вашим магазинам</h2>
-        <p class="text text_large">C Mpassistant вы сможете:</p>
-        <ul class="list">
-            <li class="text text_small">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте</li>
-            <li class="text text_small">Не потратите время на сбор данных из нескольких кабинетов или маркетплейсов</li>
-            <li class="text text_small">Добавите любое количество магазинов</li>
-        </ul>
-        <img src="" alt="Mpassistant собирает отчеты по маркетплейсам Ozon и Widberries">
-    </section>
-    
-    <section>
-        <h2 class="h2">Почему выбирают mpassistant</h2>
-        <ul class="list">
-            <li>
-                <img src="" alt="точность данных">
-            </li>
-            <li>
-                <img src="" alt="большой функционал">
-            </li>
-            <li>
-                <img src="" alt="лёгкость освоения">
-            </li>
-            <li>
-                <img src="" alt="подходит всем">
-            </li>
-            <li>
-                <img src="" alt="конфиденциальность">
-            </li>
-            <li>
-                <img src="" alt="служба заботы">
-            </li>
-        </ul>
-        <img src="" alt="начните свой 3-дневный пробный период с неограниченным доступом ко всем возможностям">
-        <form action="" method="get">
-            <label class=" form form_try">
-              Введите ваш email
-              <input type="text" name="name">
-            </label>
-            <a class="link link_try" href="">Попробовать</a>
-        </form>
-    </section>
+        <section>
+            <h2 class="h2">Возможности сервиса</h2>
+            <ul class="list">
+                <li class="list list_analytics">
+                    <h3 class="h3 h3_analytics">Финансовая аналитика</h3>
+                    <h3 class="h3 h3_analytics">Инструменты финансовой аналитики</h3>
+                    <ul>
+                        <li class="text text_small">Отчёт о прибыли и убытках(p&l)</li>
+                        <li class="text text_small">Отчёт о движении денежных средств(ддс)</li>
+                        <li class="text text_small">Журнал операций</li>
+                        <li class="text text_small">Сводка продаж</li>
+                        <li class="text text_small">Учёт самовыкупов</li>
+                    </ul>
+                    <a class="link link_try" href="">Попробовать бесплатно</a>
+                    <img alt="таблица аналитики финансов">
+                </li>
+                <li class="list list_analytics">
+                    <h3 class="h3 h3_analytics">товарная аналитика</h3>
+                </li>
+                <li class="list list_analytics">
+                    <h3 class="h3 h3_analytics">аналитика внутренней рекламы</h3>
+                </li>
+                <li class="list list_analytics">
+                    <h3 class="h3 h3_analytics">статистика</h3>
+                </li>
+                <li class="list list_analytics">
+                    <h3 class="h3 h3_analytics">инструменты</h3>
+                </li>
+            </ul>
+            <img src="" alt="начните свой 3-дневный пробный период с неограниченным доступом ко всем возможностям">
+            <form action="" method="get">
+                <label class=" form form_try">
+                    Введите ваш email
+                    <input type="text" name="name">
+                </label>
+                <a class="link link_try" href="">Попробовать</a>
+            </form>
+        </section>
 
-    <section>
-        <h2 class="h2">Выберите тариф</h2>
-        <ul class="list">
-            <li>
-                <h3 class="h3 h3_month">1 месяц</h3>
-                <ol class="list">
-                    <li>
-                        <h3 class="h3 h3_small">Стартовый</h3>
-                        <p class="text text_price">4999 р</p>
-                        <a class="link link_try" href="">Попробовать</a>
-                        <a class="link link_details" href="">Подробнее</a>
-                    </li>
-                    <li>
-                        <h3 class="h3 h3_small">Стартовый +</h3>
-                        <p class="text text_price-month">4491 р/мес</p>
-                        <p class="text text_price">13473 р</p>
-                        <a class="link link_try" href="">Попробовать</a>
-                        <a class="link link_details" href="">Подробнее</a>
-                    </li>
-                    <li>
-                        <h3 class="h3 h3_small">Профи</h3>
-                        <p class="text text_price-month">4241 р/мес</p>
-                        <p class="text text_price">25446 р</p>
-                        <a class="link link_try" href="">Попробовать</a>
-                        <a class="link link_details" href="">Подробнее</a>
-                    </li>
-                    <li>
-                        <h3 class="h3 h3_small">Начинающим селлерам с выручкой</h3>
-                        <p class="text text_price-month">до 200 тыс р/мес</p>
-                        <p class="text text_price">Бесплатно</p>
-                        <a class="link link_try" href="">Попробовать</a>
-                        <a class="link link_details" href="">Подробнее</a>
-                    </li>
-                </ol>
-            </li>
-            <li>
-                <h3 class="h3 h3_month">3 месяца</h3>
-            </li>
-            <li>
-                <h3 class="h3 h3_month">6 месяцев</h3>
-            </li>
-            <li>
-                <h3 class="h3 h3_month">12 месяца</h3>
-            </li>
-        </ul>
-    </section>
+        <section>
+            <h2 class="h2">Собираем единые отчёты по всем вашим магазинам</h2>
+            <p class="text text_large">C Mpassistant вы сможете:</p>
+            <ul class="list">
+                <li class="text text_small">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте</li>
+                <li class="text text_small">Не потратите время на сбор данных из нескольких кабинетов или маркетплейсов
+                </li>
+                <li class="text text_small">Добавите любое количество магазинов</li>
+            </ul>
+            <img src="" alt="Mpassistant собирает отчеты по маркетплейсам Ozon и Widberries">
+        </section>
 
-    <section>
-        <h2 class="h2">Отзывы</h2>
+        <section>
+            <h2 class="h2">Почему выбирают mpassistant</h2>
+            <ul class="list">
+                <li>
+                    <img src="" alt="точность данных">
+                </li>
+                <li>
+                    <img src="" alt="большой функционал">
+                </li>
+                <li>
+                    <img src="" alt="лёгкость освоения">
+                </li>
+                <li>
+                    <img src="" alt="подходит всем">
+                </li>
+                <li>
+                    <img src="" alt="конфиденциальность">
+                </li>
+                <li>
+                    <img src="" alt="служба заботы">
+                </li>
+            </ul>
+            <img src="" alt="начните свой 3-дневный пробный период с неограниченным доступом ко всем возможностям">
+            <form action="" method="get">
+                <label class=" form form_try">
+                    Введите ваш email
+                    <input type="text" name="name">
+                </label>
+                <a class="link link_try" href="">Попробовать</a>
+            </form>
+        </section>
 
-        <button class="button button_go">
-            <span>←</span>
-        </button>
-        <button class="button button_go">
-            <span>→</span>
-        </button>
-        <ul class="list">
-            <li>
-                <blockquote>
-                    <p class="text text_large">Текст отзыва</p>
-                    <cite class="h3 h3_small">- Алексей</cite>
-                </blockquote> 
-            </li>
-            <li>
-                <blockquote>
-                    <p class="text text_large">Текст отзыва</p>
-                    <cite class="h3 h3_small">- Владислав</cite>
-                </blockquote>
-            </li>
-        </ul>
-    </section>
+        <section>
+            <h2 class="h2">Выберите тариф</h2>
+            <ul class="list">
+                <li>
+                    <h3 class="h3 h3_month">1 месяц</h3>
+                    <ol class="list">
+                        <li>
+                            <h3 class="h3 h3_small">Стартовый</h3>
+                            <p class="text text_price">4999 р</p>
+                            <a class="link link_try" href="">Попробовать</a>
+                            <a class="link link_details" href="">Подробнее</a>
+                        </li>
+                        <li>
+                            <h3 class="h3 h3_small">Стартовый +</h3>
+                            <p class="text text_price-month">4491 р/мес</p>
+                            <p class="text text_price">13473 р</p>
+                            <a class="link link_try" href="">Попробовать</a>
+                            <a class="link link_details" href="">Подробнее</a>
+                        </li>
+                        <li>
+                            <h3 class="h3 h3_small">Профи</h3>
+                            <p class="text text_price-month">4241 р/мес</p>
+                            <p class="text text_price">25446 р</p>
+                            <a class="link link_try" href="">Попробовать</a>
+                            <a class="link link_details" href="">Подробнее</a>
+                        </li>
+                        <li>
+                            <h3 class="h3 h3_small">Начинающим селлерам с выручкой</h3>
+                            <p class="text text_price-month">до 200 тыс р/мес</p>
+                            <p class="text text_price">Бесплатно</p>
+                            <a class="link link_try" href="">Попробовать</a>
+                            <a class="link link_details" href="">Подробнее</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h3 class="h3 h3_month">3 месяца</h3>
+                </li>
+                <li>
+                    <h3 class="h3 h3_month">6 месяцев</h3>
+                </li>
+                <li>
+                    <h3 class="h3 h3_month">12 месяца</h3>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="h2">Отзывы</h2>
+
+            <button class="button button_go">
+                <span>←</span>
+            </button>
+            <button class="button button_go">
+                <span>→</span>
+            </button>
+            <ul class="list">
+                <li>
+                    <blockquote>
+                        <p class="text text_large">Текст отзыва</p>
+                        <cite class="h3 h3_small">- Алексей</cite>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                        <p class="text text_large">Текст отзыва</p>
+                        <cite class="h3 h3_small">- Владислав</cite>
+                    </blockquote>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <footer>
         <a href="">
             <img src="" alt=" логотип mpassistant">
         </a>
-            <ul class="list">
-                <li>
-                    <a href="">
-                        <img src="" alt="переход на аккаунт компании в социальной сети вконтакте">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="переход на аккаунт компании в социальной сети telegram">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="переход на аккаунт компании в видеохостинге youtube">
-                    </a>
-                </li>
-            </ul>
+        <ul class="list">
+            <li>
+                <a href="">
+                    <img src="" alt="переход на аккаунт компании в социальной сети вконтакте">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="" alt="переход на аккаунт компании в социальной сети telegram">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="" alt="переход на аккаунт компании в видеохостинге youtube">
+                </a>
+            </li>
+        </ul>
         <ul class="list">
             <li>
                 <h3 class="text text_footer-list">Сервис</h3>
@@ -291,4 +300,5 @@
     </footer>
 
 </body>
+
 </html>
