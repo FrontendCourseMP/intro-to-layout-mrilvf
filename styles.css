@@ -1,10 +1,11 @@
 :root{
     --first-color: black;
-    --second-color: MediumAquamarine;
-    --third-color: DodgerBlue;
-    --fourth-color: DarkGray;
-    --fifth-color: White;
-    --sixth-color:DarkCyan;
+    --second-color: White;
+    --third-color: #6C778E;
+    --fourth-color: #C3C3C3;
+    --fifth-color: #2EB897;
+    --sixth-color: #2A84EE;
+    --seventh-color:#11AE88;
 }
 @font-face {
     font-display: swap;
@@ -18,8 +19,88 @@ html {
   }  
 body{
     font-family: 'NTsomic', sans-serif;
-    background-color: var(--fifth-color);
+    background-color: var(--second-color);
 }
+.hero__title--green{
+    color:var(--fifth-color)
+}
+.hero__title--blue{
+    color:var(--sixth-color)
+}
+.visually-hidden{
+    visibility: hidden;
+}
+
+.header__wrapper{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.hero__wrapper{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.hero__title{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    line-height: 115%;
+    text-align: left;
+    color: var(--first-color);
+}
+.hero__text{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+    color: var(--third-color);
+}
+/* .hero__marketplace--ozon{
+
+}
+.hero__marketplace--wb{
+
+} */
+.hero__feedback{
+    background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
+    border-radius: 10px;
+
+}
+.feedback__text{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+    color: var(--second-color);
+}
+.feedback__form{
+    border-radius: 30px;
+}
+.feedback__label{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+    color: var(--fourth-color);
+}
+.feedback__button--submit{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+    display: flex;
+    color: var(--second-color);
+    border-radius: 30px;
+    background: linear-gradient(var(--sixth-color),var(--seventh-color),var(--fifth-color));
+    box-shadow: 0px 0px 30px 0px #50ABDC;
+}
+.hero__img{
+    border-radius: 10px;
+}
+/* 
 header{
     background-color: var(--fifth-color);
 }
@@ -80,15 +161,6 @@ h2{
     color: var(--first-color);
     font-size: 4.6rem;
     font-weight: bolder;
-}
-.h2_main{
-    text-align: start;
-    line-height: normal;
-    display: inline-block;
-    color: var(--first-color);
-    font-size: 6rem;
-    font-weight:bolder;
-    vertical-align: middle;
 }
 .text_large{
     text-align: start;
@@ -215,4 +287,4 @@ h2{
 }
 .link_form{
     text-decoration: none;
-}
+} */
