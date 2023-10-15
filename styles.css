@@ -210,12 +210,12 @@ body{
     text-align: left;
     color: var(--first-color);
 }
-.subscribe__list{
-    text-decoration: none;
+/* .subscribe__list{
+
 }
 .list__month{
-    text-decoration: none;
-}
+
+} */
 .month__subtitle{
     font-size: 1.6rem;
     font-weight: normal;
@@ -225,9 +225,9 @@ body{
     border-radius: 30px;
     background: var(--seventh-color);
 }
-.month__price{
+/* .month__price{
 
-}
+} */
 .list__price{
     border-radius: 10px;
     background: #EAF3FD;
@@ -272,4 +272,40 @@ body{
     text-decoration: none;
     border-radius: 30px;
 }
+.reviews__wrapper{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.reviews__title{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: left;
+    color: var(--first-color);
+}
+/* .reviews__user{
 
+} */
+.user__item{
+    border-radius: 10px;
+    background-color: #EAF3FD;
+}
+/* .item__blockquote{
+
+} */
+.blockquote__text{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: left;
+    color: var(--third-color);
+}
+.blockquote__cite{
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: left;
+    color: var(--first-color);
+}
