@@ -1,5 +1,5 @@
 :root{
-    --first-color: black;
+    --first-color: #212121;
     --second-color: White;
     --third-color: #6C778E;
     --fourth-color: #C3C3C3;
@@ -164,7 +164,7 @@ body{
     font-weight: normal;
     line-height: 125%;
     text-align: left;
-    color: #212121;
+    color: var(--first-color);
     border-radius: 10px;
     background: #EAF3FD;
 }
@@ -197,3 +197,79 @@ body{
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
     border-radius: 10px;
 }
+.subscribe__wrapper{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.subscribe__title{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: left;
+    color: var(--first-color);
+}
+.subscribe__list{
+    text-decoration: none;
+}
+.list__month{
+    text-decoration: none;
+}
+.month__subtitle{
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: center;
+    color: var(--second-color);
+    border-radius: 30px;
+    background: var(--seventh-color);
+}
+.month__price{
+
+}
+.list__price{
+    border-radius: 10px;
+    background: #EAF3FD;
+}
+.price__subtitle{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: left;
+    color: var(--first-color);
+}
+.price__text--grey{
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: left;
+    color: var(--third-color);
+}
+.price__text--blue{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: left;
+    color: var(--sixth-color);
+}
+.price__link--try{
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--second-color);
+    border-radius: 30px;
+    background: linear-gradient(var(--seventh-color),var(--sixth-color))
+}
+.price__link--detail{
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: center;
+    color: var(--first-color);
+    text-decoration: none;
+    border-radius: 30px;
+}
+
