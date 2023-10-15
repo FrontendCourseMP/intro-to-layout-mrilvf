@@ -156,10 +156,9 @@ body{
     text-align: left;
     color: #707070;
 }
-.info__offer{
-    display:block;
-    text-decoration: none;
-}
+/* .info__offer{
+
+} */
 .offer__item{
     font-size: 1.6rem;
     font-weight: normal;
@@ -172,3 +171,29 @@ body{
 /* .info__img{
 
 } */
+.about__wrapper{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.about__title{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: left;
+    color: var(--first-color);
+}
+/* .about__advantages{
+
+} */
+/* .advantages__item{
+
+}
+.advantage__img{
+
+} */
+.about__feedback{
+    background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
+    border-radius: 10px;
+}
