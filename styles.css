@@ -136,4 +136,39 @@ body{
     text-align: left;
     color: var(--second-color)
 }
+.info__wrapper{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.info__title{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: left;
+    color: var(--first-color);
+}
+.info__text{
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: left;
+    color: #707070;
+}
+.info__offer{
+    display:block;
+    text-decoration: none;
+}
+.offer__item{
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 125%;
+    text-align: left;
+    color: #212121;
+    border-radius: 10px;
+    background: #EAF3FD;
+}
+/* .info__img{
 
+} */
