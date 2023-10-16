@@ -89,10 +89,10 @@ body{
     margin-bottom: 4rem;
 }
 /* .hero__marketplace--ozon{
-
+    position: absolute;
 }
 .hero__marketplace--wb{
-
+    position: absolute;
 } */
 .hero__feedback{
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
@@ -170,9 +170,10 @@ body{
     padding: 1.6rem 2rem 1.6rem 2rem;
     margin-bottom: 1rem;
 }
-/* .analytics__checkbox{
-
-} */
+.analytics__checkbox{
+    position: relative;
+    left: 95%;
+}
 .checkbox__subtitle{
     font-size: 1.8rem;
     font-weight: 400;
