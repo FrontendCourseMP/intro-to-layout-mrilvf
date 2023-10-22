@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
-    <title>mpassistant</title>
+    <title>Mpassistant</title>
 </head>
 
 <body>
@@ -16,8 +16,8 @@
                 <img src="" alt="логотип mpassistant" class="logo__img">
             </a>
             <nav class="header__menu menu">
-                <a href="" class="menu__button"><img src="" alt="Кнопка регистрации" class="button__reg"></a>
-                <a href="" class="menu__button"><img src="" alt="Кнопка меню навигации" class="button__list"></a>
+                <a href="" class="menu__button button"><img src="" alt="Кнопка регистрации" class="button__reg"></a>
+                <a href="" class="menu__button button"><img src="" alt="Кнопка меню навигации" class="button__burger"></a>
             </nav>
         </div>
     </header>
@@ -27,73 +27,233 @@
             <div class="hero__wrapper">
                 <div class="hero__text-wrapper">
                     <h2 class="hero__title">
-                        <span class="hero__title--green">Внутренняя аналитика</span>
-                        и <span class="hero__title--blue">финансовый учёт</span> 
+                        <span class="hero__title hero__title--green">Внутренняя аналитика</span>
+                        и <span class="hero__title hero__title--blue">финансовый учёт</span>
                         для бизнеса на маркетплейсах
+                        <img src="" alt="Логотип Ozon" class="hero__marketplace hero__marketplace--ozon">
+                        <img src="" alt="Логотип WB" class="hero__marketplace hero__marketplace--wb">
                     </h2>
-                    <img src="" alt="Логотип Ozon" class="hero__marketplace--ozon">
-                    <img src="" alt="Логотип WB" class="hero__marketplace--wb">
                     <p class="hero__text">
-                        Увеличивай прибыль, автоматизируй рутину 
+                        Увеличивай прибыль, автоматизируй рутину
                         и экономь время на сборе и анализе отчётов
                     </p>
                 </div>
                 <div class="hero__feedback feedback">
                     <p class="feedback__text">
-                        Начните свой 3-дневный пробный период 
+                        Начните свой 3-дневный пробный период
                         с неограниченным доступом ко всем
                         возможностям
                     </p>
                     <form action="" class="feedback__form">
-                        <label for="" class="feedback__label">
+                        <label class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
+                            <input type="email" class="feedback__input" placeholder="Введите ваш email">
                         </label>
-                        <input type="text" class="feedback__input">
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
                 </div>
-                <img src="" alt="Статистика" class="hero__img">
+            </div>
+        </section>
+        <section class="numbers">
+            <div class="numbers__wrapper">
+                <h2 class="visually-hidden">Статистика сервиса</h2>
+                <ul class="numbers__list">
+                    <li class="numbers__item">
+                        <span class="numbers__accent">777</span>
+                        <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+                            и анализе
+                            отчётов</p>
+                    </li>
+                    <li class="numbers__item">
+                        <span class="numbers__accent">5</span>
+                        <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+                            и анализе
+                            отчётов</p>
+                    </li>
+                    <li class="numbers__item">
+                        <span class="numbers__accent">100 000</span>
+                        <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+                            и анализе
+                            отчётов</p>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <section class="features">
             <div class="features__wrapper">
                 <h2 class="features__title">Возможности сервиса</h2>
-                <ol class="features__list">
-                    <li class="list__analytics">
-                        <input type="checkbox" class="analytics__checkbox checkbox"></input>
-                        <label for="" class="checkbox__subtitle">Финансовая аналитика</label>
+                <ul class="features__analytics analytics">
+                    <li class="analytics__item">
+                        <input type="checkbox" class="analytics__checkbox"></input>
+                        <label for="" class="analytics__subtitle">Финансовая аналитика</label>
                     </li>
-                    <li class="list__analytics">
-                        <input type="checkbox" class="analytics__checkbox checkbox"></input>
-                        <label for="" class="checkbox__subtitle">Товарная аналитика</label>
+                    <div class="analytics__details details">
+                        <h3 class="details__subtitle">Инструменты для финансовой аналитики</h3>
+                        <ul class="details__tools">
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text">Отчёт о прибылях и убытках (P&L)</p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text">Отчёт о движении денежных средств (ДДС)</p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text">Журнал операций</p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text">Сводка продаж</p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text">Учёт самовыкупов</p>
+                            </li>
+                        </ul>
+                        <img src="" alt="Таблица статистики операций" class="details__img">
+                        <button type="submit" class="details__button">Попробовать бесплатно</button>
+                    </div>
+                    <li class="analytics__item">
+                        <input type="checkbox" class="analytics__checkbox"></input>
+                        <label for="" class="analytics__subtitle">Товарная аналитика</label>
                     </li>
-                    <li class="list__analytics">
-                        <input type="checkbox" class="analytics__checkbox checkbox"></input>
-                        <label for="" class="checkbox__subtitle">Аналитика внутренней рекламы</label>
+                    <!-- <div class="analytics__details details">
+                        <h3 class="details__subtitle"></h3>
+                        <ul class="details__tools">
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                        </ul>
+                        <img src="" alt="" class="details__img">
+                        <button type="submit" class="details__button"></button>
+                    </div> -->
+                    <li class="analytics__item">
+                        <input type="checkbox" class="analytics__checkbox"></input>
+                        <label for="" class="analytics__subtitle">Аналитика внутренней рекламы</label>
                     </li>
-                    <li class="list__analytics">
-                        <input type="checkbox" class="analytics__checkbox checkbox"></input>
-                        <label for="" class="checkbox__subtitle">Статистика</label>
+                    <!-- <div class="analytics__details details">
+                        <h3 class="details__subtitle"></h3>
+                        <ul class="details__tools">
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                        </ul>
+                        <img src="" alt="" class="details__img">
+                        <button type="submit" class="details__button"></button>
+                    </div> -->
+                    <li class="analytics__item">
+                        <input type="checkbox" class="analytics__checkbox"></input>
+                        <label for="" class="analytics__subtitle">Статистика</label>
                     </li>
-                    <li class="list__analytics">
-                        <input type="checkbox" class="analytics__checkbox checkbox"></input>
-                        <label for="" class="checkbox__subtitle">Инструменты</label>
+                    <!-- <div class="analytics__details details">
+                        <h3 class="details__subtitle"></h3>
+                        <ul class="details__tools">
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                        </ul>
+                        <img src="" alt="" class="details__img">
+                        <button type="submit" class="details__button"></button>
+                    </div> -->
+                    <li class="analytics__item">
+                        <input type="checkbox" class="analytics__checkbox"></input>
+                        <label for="" class="analytics__subtitle">Инструменты</label>
                     </li>
-                </ol>
-                <div class="features__feedback">
-                    <h2 class="feedback__title">Начните экономить свое время</h3>
-                        <p class="feedback__text">
-                            3-дневный пробный период
-                            с неограниченным доступом ко всем возможностям
-                        </p>
-                        <form action="" class="feedback__form">
-                            <label for="" class="feedback__label">
-                                <span class="visually-hidden">Введите ваш email</span>
-                            </label>
-                            <input type="text" class="feedback__input">
-                            <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
-                        </form>
+                    <!-- <div class="analytics__details details">
+                        <h3 class="details__subtitle"></h3>
+                        <ul class="details__tools">
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                            <li class="details__item">
+                                <img src="" alt="Декорация списка" class="details__ellipse">
+                                <p class="details__text"></p>
+                            </li>
+                        </ul>
+                        <img src="" alt="" class="details__img">
+                        <button type="submit" class="details__button"></button>
+                    </div> -->
+                </ul>
+                <div class="features__feedback feedback">
+                    <h2 class="feedback__title">Начните экономить свое время</h2>
+                    <p class="feedback__text">
+                        3-дневный пробный период
+                        с неограниченным доступом ко всем возможностям
+                    </p>
+                    <form action="" class="feedback__form">
+                        <label for="" class="feedback__label">
+                            <span class="visually-hidden">Введите ваш email</span>
+                            <input type="email" class="feedback__input" placeholder="Введите ваш email">
+                        </label>
+                        <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
+                    </form>
+                    <img src="" alt="Женщина с ноутбуком, на фоне часов" class="feedback__img">
                 </div>
             </div>
         </section>
@@ -103,9 +263,19 @@
                 <h2 class="info__title">Собираем единые отчёты по всем вашим магазинам</h2>
                 <p class="info__text">C Mpassistant вы сможете:</p>
                 <ul class="info__offer offer">
-                    <li class="offer__item">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте</li>
-                    <li class="offer__item">Не потратите время на сбор данных из нескольких кабинетов или маркетплейсов</li>
-                    <li class="offer__item">Добавите любое количество магазинов</li>
+                    <li class="offer__item">
+                        <img src="" alt="Изображение галочки" class="offer__img">
+                        <p class="offer__text">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте</p>
+                    </li>
+                    <li class="offer__item">
+                        <img src="" alt="Изображение галочки" class="offer__img">
+                        <p class="offer__text">Не потратите время на сбор данных из нескольких кабинетов
+                            или маркетплейсов</p>
+                    </li>
+                    <li class="offer__item">
+                        <img src="" alt="Изображение галочки" class="offer__img">
+                        <p class="offer__text">Добавите любое количество магазинов</p>
+                    </li>
                 </ul>
                 <img src="" alt="Mpassistant собирает отчеты по маркетплейсам Ozon и Widberries" class="info__img">
             </div>
@@ -115,15 +285,54 @@
             <div class="about__wrapper">
                 <h2 class="about__title">Почему выбирают Mpassistant</h2>
                 <ul class="about__advantages advantages">
-                    <li class="advantages__item"><img src="" alt="Точность данных" class="advantage__img"></li>
-                    <li class="advantages__item"><img src="" alt="Большой функционал" class="advantage__img"></li>
-                    <li class="advantages__item"><img src="" alt="Лёгкость освоения" class="advantage__img"></li>
-                    <li class="advantages__item"><img src="" alt="Подходит всем" class="advantage__img"></li>
-                    <li class="advantages__item"><img src="" alt="Конфиденциальность" class="advantage__img"></li>
-                    <li class="advantages__item"><img src="" alt="Служба заботы" class="advantage__img"></li>
+                    <li class="advantages__advantage advantage">
+                        <img src="" alt="" class="advantage__image">
+                        <h3 class="advantage__title">Точность данных</h3>
+                        <p class="advantage__text">Данные в отчётах сервиса полностью совпадает с данными ваших
+                            магазинов
+                            на маркетплейсах.</p>
+                    </li>
+                    <li class="advantages__advantage advantage">
+                        <img src="" alt="" class="advantage__image">
+                        <h3 class="advantage__title">Большой функционал</h3>
+                        <p class="advantage__text">Полный набор инструментов для внутренней аналитики для Wildberries
+                            и Ozon.
+                            Более 10 полезных отчётов с удобными настраиваемыми фильтрами и параметрами.</p>
+                    </li>
+                    <li class="advantages__advantage advantage">
+                        <img src="" alt="" class="advantage__image">
+                        <h3 class="advantage__title">Лёгкость освоения</h3>
+                        <p class="advantage__text">Наши отчёты просты и удобны. Все отчёты имеют подробные инструкции
+                            и видео,
+                            помогающие легко читать их и использовать.</p>
+                    </li>
+                    <li class="advantages__advantage advantage">
+                        <img src="" alt="" class="advantage__image">
+                        <h3 class="advantage__title">Подходит всем</h3>
+                        <p class="advantage__text">Mpassistant создан селлерами для селлеров. Наш опыт в товарном
+                            бизнесе
+                            и разработке IT систем позволил создать полезный и удобный продукт, поэтому он подойдёт
+                            как для новичков, так и для опытных селлеров.</p>
+                    </li>
+                    <li class="advantages__advantage advantage">
+                        <img src="" alt="" class="advantage__image">
+                        <h3 class="advantage__title">Конфиденциальность</h3>
+                        <p class="advantage__text">Ваша конфиденциальность для нас самый главный приоритет. Все ваши
+                            данные
+                            надёжно сохранены, а информация об этом записана в договоре-оферте. По желанию можем
+                            заключить
+                            дополнительное соглашение (NDA).</p>
+                    </li>
+                    <li class="advantages__advantage advantage">
+                        <img src="" alt="" class="advantage__image">
+                        <h3 class="advantage__title">Служба заботы</h3>
+                        <p class="advantage__text">Наша служба заботы готова решить практически любые вопросы и в режиме
+                            24/7.
+                        </p>
+                    </li>
                 </ul>
                 <div class="about__feedback feedback">
-                    <h2 class="feedback__title">Попробуйте бесплатно</h3>
+                    <h2 class="feedback__title">Попробуйте бесплатно</h2>
                     <p class="feedback__text">
                         Начните свой 3-дневный пробный период
                         с неограниченным доступом ко всем возможностям
@@ -131,10 +340,11 @@
                     <form action="" class="feedback__form">
                         <label for="" class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
+                            <input type="email" class="feedback__input" placeholder="Введите ваш email">
                         </label>
-                        <input type="text" class="feedback__input">
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
+                    <img src="" alt="Женщина с ноутбуком, на фоне подарков" class="feedback__img">
                 </div>
             </div>
         </section>
@@ -145,35 +355,38 @@
                 <ul class="subscribe__list list">
                     <li class="list__month month">
                         <button class="month__subtitle">1 месяц</button>
-                        <ol class="month__price">
+                        <ul class="month__price">
                             <li class="list__price price">
                                 <h3 class="price__subtitle">Стартовый</h3>
-                                <p class="price__text--blue">4999 р</p>
-                                <a href="" class="price__link--try">Попробовать</a>
-                                <a href="" class="price__link--detail">Подробнее</a>
+                                <p class="price__text price__text--blue">4999 р</p>
+                                <a href="" class="price__link price__link--try">Попробовать</a>
+                                <a href="" class="price__link price__link--detail">Подробнее</a>
                             </li>
                             <li class="list__price price">
+                                <img src="" alt="" class="price__sale">
                                 <h3 class="price__subtitle">Стартовый +</h3>
-                                <p class="price__text--grey">4491 р/мес</p>
-                                <p class="price__text--blue">13473 р</p>
-                                <a href="" class="price__link--try">Попробовать</a>
-                                <a href="" class="price__link--detail">Подробнее</a>
+                                <p class="price__text price__text--grey">4491 р/мес</p>
+                                <p class="price__text price__text--blue">13473 р</p>
+                                <a href="" class="price__link price__link--try">Попробовать</a>
+                                <a href="" class="price__link price__link--detail">Подробнее</a>
                             </li>
-                            <li class="list__price price">
+                            <li class="list__price list__price--pro price">
+                                <img src="" alt="" class="price__sale">
                                 <h3 class="price__subtitle">Профи</h3>
-                                <p class="price__text--grey">4241 р/мес</p>
-                                <p class="price__text--blue">25446 р</p>
-                                <a href="" class="price__link--try">Попробовать</a>
-                                <a href="" class="price__link--detail">Подробнее</a>
+                                <p class="price__text price__text--grey">4241 р/мес</p>
+                                <p class="price__text price__text--blue">25446 р</p>
+                                <a href="" class="price__link price__link--try">Попробовать</a>
+                                <a href="" class="price__link price__link--detail">Подробнее</a>
                             </li>
-                            <li class="list__price price">
+                            <li class="list__price list__price--seller price">
                                 <h3 class="price__subtitle">Начинающим селлерам с выручкой</h3>
-                                <p class="price__text--grey">до 200000 р/мес</p>
-                                <p class="price__text--blue">Бесплатно</p>
-                                <a href="" class="price__link--try">Попробовать</a>
-                                <a href="" class="price__link--detail">Подробнее</a>
+                                <p class="price__text price__text--grey">до 200000 р/мес</p>
+                                <p class="price__text price__text--blue">Бесплатно</p>
+                                <a href="" class="price__link price__link--try">Попробовать</a>
+                                <a href="" class="price__link price__link--detail">Подробнее</a>
+                                <img src="" alt="Женщина на фоне подарков" class="price__img">
                             </li>
-                        </ol>
+                        </ul>
                     </li>
                     <li class="list__month month">
                         <button class="month__subtitle">3 месяца</button>
@@ -191,31 +404,52 @@
         <section class="reviews">
             <div class="reviews__wrapper">
                 <h2 class="reviews__title">Отзывы</h2>
-                <ul class="reviews__user user">
-                    <li class="user__item">
-                        <blockquote class="item__blockquote blockquote">
-                            <p class="blockquote__text">Текст отзыва</p>
+                <ul class="reviews__users users">
+                    <li class="users__item">
+                        <blockquote class="users__blockquote blockquote">
+                            <p class="blockquote__text">Изначально нашёл сервис в поиске Яндекса, когда искал
+                                калькулятор
+                                unit-экономики товара. Калькулятор полностью устроил и решил пользоваться самим сайтом.
+                                К тому же это было для меня бесплатно, так как проходил по условиям бесплатного доступа:
+                                оборот
+                                до 200т.р в месяц. Этого не встретить на других сайтах, это возможность развиваться
+                                на ранних
+                                этапах, без вложения огромных сумм для доступа к подобным сайтам.
+                                Радует поддержка, получал ответы на всевопросы, выслушивали все мои рекомендации
+                                по улучшению
+                                сервиса. Какие‑то из них уже внедрены! Сервис ориентирован на аналитику своего магазина,
+                                продаж.
+                                Удобно анализировать финансовую составляющую.
+                                Бывают акции, когда можно хорошо сэкономить на подписке.
+                                Желаю сервису развития и успехов!</p>
                             <cite class="blockquote__cite">- Алексей</cite>
                         </blockquote>
+                        <a href="" class="users__link">Читать полностью
+                            <img src="" alt="Знак развернуть" class="users__img">
+                        </a>
                     </li>
-                    <li class="user__item">
-                        <blockquote class="item__blockquote blockquote">
-                            <p class="blockquote__text">Текст отзыва</p>
+                    <li class="users__item">
+                        <blockquote class="users__blockquote blockquote">
+                            <p class="blockquote__text">Функционал сервиса, тот что есть — полностью устраивает. Хочется
+                                ещё автобиддер по ставкам в рекламных компаниях и цены вам не будет!</p>
                             <cite class="blockquote__cite">- Владислав</cite>
                         </blockquote>
+                        <a href="" class="users__link">Читать полностью
+                            <img src="" alt="Знак развернуть" class="users__img">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
     </main>
 
     <footer class="footer">
         <div class="footer__wrapper">
             <a href="" class="footer__logo logo"><img src="" alt="Логотип Mpassistant" class="logo__img"></a>
             <h1 class="title">
-                Mpassistant аналитика и оцифровка продаж 
-                <span class="title--purple">Wildberries</span> и 
-                <span class="title--blue">Ozon</span>
+                Mpassistant аналитика и оцифровка продаж
+                <span class="title title--purple">Wildberries</span> и
+                <span class="title title--blue">Ozon</span>
             </h1>
             <ul class="footer__social-services social-services">
                 <li class="social-services__item">
@@ -234,53 +468,64 @@
                     </a>
                 </li>
             </ul>
-            <ul class="footer__nav nav">
-                <li class="nav__menu menu">
-                    <h3 class="menu__subtitle">Сервис</h3>
-                    <nav class="menu__navigation navigation">
-                        <a href="" class="navigation__button">Для кого</a>
-                        <a href="" class="navigation__button">Возможности</a>
-                        <a href="" class="navigation__button">Тарифы</a>
-                    </nav>
+            <div class="footer__service service">
+                <h3 class="service__subtitle">Сервис</h3>
+                <nav class="service__navigation navigation">
+                    <a href="" class="navigation__button">Для кого</a>
+                    <a href="" class="navigation__button">Возможности</a>
+                    <a href="" class="navigation__button">Тарифы</a>
+                </nav>
+            </div>
+            <div class="footer__clients clients">
+                <h3 class="clients__subtitle">Клиентам</h3>
+                <nav class="clients__navigation navigation">
+                    <a href="" class="navigation__button">Вход</a>
+                    <a href="" class="navigation__button">Регистрация</a>
+                    <a href="" class="navigation__button">Восстановления пароля</a>
+                </nav>
+            </div>
+            <div class="footer__documentation documentation">
+                <h3 class="documentation__subtitle">Документы</h3>
+                <nav class="documentation__navigation navigation">
+                    <a href="" class="navigation__button">Пользовательское соглашение</a>
+                    <a href="" class="navigation__button">Политика конфиденциальности</a>
+                    <a href="" class="navigation__button">Публичная оферта</a>
+                    <a href="" class="navigation__button">Использование cookie</a>
+                    <a href="" class="navigation__button">Техническая поддержка</a>
+                </nav>
+            </div>
+            <ul class="footer__payment payment">
+                <li class="payment__cards">
+                    <a href="" class="payment__card">
+                        <img src="" alt="поддержка оплаты банковской картой модульбанк" class="payment__img">
+                    </a>
                 </li>
-                <li class="nav__menu menu">
-                    <h3 class="menu__subtitle">Клиентам</h3>
-                    <nav class="menu__navigation navigation">
-                        <a href="" class="navigation__button">Вход</a>
-                        <a href="" class="navigation__button">Регистрация</a>
-                        <a href="" class="navigation__button">Восстановления пароля</a>
-                    </nav>
+                <li class="payment__cards">
+                    <a href="" class="payment__card">
+                        <img src="" alt="поддержка оплаты банковской картой visa" class="payment__img">
+                    </a>
                 </li>
-                <li class="nav__menu menu">
-                    <h3 class="menu__subtitle">Документы</h3>
-                    <nav class="menu__navigation navigation">
-                        <a href="" class="navigation__button">Пользовательское соглашение</a>
-                        <a href="" class="navigation__button">Политика конфиденциальности</a>
-                        <a href="" class="navigation__button">Публичная оферта</a>
-                        <a href="" class="navigation__button">Использование cookie</a>
-                        <a href="" class="navigation__button">Техническая поддержка</a>
-                    </nav>
+                <li class="payment__cards">
+                    <a href="" class="payment__card">
+                        <img src="" alt="поддержка оплаты банковской картой mastercard" class="payment__img">
+                    </a>
                 </li>
-            </ul>
-            <ul class="footer__payment">
-                <li class="payment__card card">
-                    <img src="" alt="поддержка оплаты банковской картой модульбанк" class="card__img">
+                <li class="payment__cards">
+                    <a href="" class="payment__card">
+                        <img src="" alt="поддержка оплаты банковской картой maestro" class="payment__img">
+                    </a>
                 </li>
-                <li class="payment__card card">
-                    <img src="" alt="поддержка оплаты банковской картой visa" class="card__img">
-                </li>
-                <li class="payment__card card">
-                    <img src="" alt="поддержка оплаты банковской картой mastercard" class="card__img">
-                </li>
-                <li class="payment__card card">
-                    <img src="" alt="поддержка оплаты банковской картой maestro" class="card__img">
-                </li>
-                <li class="payment__card card">
-                    <img src="" alt="поддержка оплаты банковской картой мир" class="card__img">
+                <li class="payment__cards">
+                    <a href="" class="payment__card">
+                        <img src="" alt="поддержка оплаты банковской картой мир" class="payment__img">
+                    </a>
                 </li>
             </ul>
             <p class="footer__copyright">© 2022-2023 mpassistant</p>
             <p class="footer__text">Информация, размещённая на сайте, не является публичной офертой</p>
+            <p class="footer__designer">Редизайн сайта
+                <span class="footer__designer footer__designer--green">Turkuletdesign</span>
+            </p>
         </div>
     </footer>
 
