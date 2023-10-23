@@ -14,7 +14,7 @@
     font-display: swap;
     font-family: "NTsomic";
     font-style: normal;
-    src: url(C:/Users/wolfm/projects/fonts/NTSomic-Medium.ttf) format('ttf');
+    src: url(C:/Users/wolfm/projects/intro-to-layout-mrilvf/NTSomic-Medium.ttf) format('ttf');
 }
 *{
     margin: 0;
@@ -32,11 +32,14 @@ body{
     width: 100%;
     max-width: 65ch;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 2rem 1rem 1.4rem 1rem;
 }
 .header__logo{
     text-decoration: none;
 }
+/* .logo__logos{
+
+} */
 /* .logo__img{
 
 } */
@@ -46,12 +49,12 @@ body{
 .menu__button{
     text-decoration: none;
 }
-/* .button__reg{
-
+.button__reg{
+    fill: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #FF010B;
 }
 .button__burger{
 
-} */
+}
 
 .visually-hidden{
     visibility: hidden;
@@ -88,10 +91,10 @@ body{
     min-width: auto;
     margin-bottom: 4rem;
 }
-/* .hero__marketplace--ozon{
- 
+/* .hero__marketplace{
+
 }
-.hero__marketplace--wb{
+.hero__marketplaces{
 
 } */
 .hero__feedback{
@@ -100,6 +103,9 @@ body{
     max-width: 28rem;
     padding: 3.5rem 2rem;
     margin-bottom: 4rem;
+}
+.feedback__background{
+
 }
 .feedback__text{
     font-size: 1.6rem;
@@ -262,6 +268,7 @@ body{
     margin-bottom: 2rem;
 }
 .details__img{
+    border-radius: 10px;
     margin-bottom: 3rem;
 }
 .details__button{
