@@ -37,9 +37,6 @@ body{
 .header__logo{
     text-decoration: none;
 }
-/* .logo__logos{
-
-} */
 /* .logo__img{
 
 } */
@@ -52,10 +49,9 @@ body{
 .button__reg{
     fill: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #FF010B;
 }
-.button__burger{
+/* .button__burger{
 
-}
-
+} */
 .visually-hidden{
     visibility: hidden;
 }
@@ -91,20 +87,22 @@ body{
     min-width: auto;
     margin-bottom: 4rem;
 }
-/* .hero__marketplace{
+/* .hero__marketplaces{
 
-}
-.hero__marketplaces{
-
-} */
+}  */
 .hero__feedback{
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
     border-radius: 10px;
     max-width: 28rem;
     padding: 3.5rem 2rem;
     margin-bottom: 4rem;
+    position: relative;
+    z-index: 0;
 }
 .feedback__background{
+    position: absolute;
+    z-index: -1;
+    /* object-fit: contain; */
 
 }
 .feedback__text{
@@ -287,8 +285,10 @@ body{
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
     border-radius: 10px;
     max-width: 28rem;
-    padding: 3.5rem 2rem;
+    padding: 3.5rem 2rem 0rem 2rem;
     margin-bottom: 4rem;
+    position: relative;
+    z-index: 0;
 }
 .feedback__title{
     font-size: 2.1rem;
@@ -298,6 +298,10 @@ body{
     color: var(--second-color);
     max-width: 24.7rem;
     margin-bottom: 2.1rem;
+}
+.feedback__img-clock{
+    position: relative;
+    right: 6%;
 }
 .info__wrapper{
     width: 100%;
@@ -375,7 +379,7 @@ body{
 .advantages__advantage{
     background-color: var(--eighth-color);
     border-radius: 10px;
-    max-width: 32rem;
+    max-width: 28rem;
     min-width: auto;
     padding: 2rem 2.7rem 2rem 3.6rem;
     margin-bottom: 1rem;
@@ -407,8 +411,14 @@ body{
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
     border-radius: 10px;
     max-width: 28rem;
-    padding: 3.5rem 2rem;
+    padding: 3.5rem 2rem 0rem 2rem;
     margin-bottom: 3rem;
+    position: relative;
+    z-index: 0;
+}
+.feedback__img-gift{
+    position: relative;
+    right: 7%;
 }
 .subscribe__wrapper{
     width: 100%;
@@ -461,10 +471,16 @@ body{
 }
 .list__price--seller{
     background: linear-gradient(#FFF1D7, #FFB57F);
+    padding: 3.1rem 2rem 0rem 2rem;
 }
 /* .price__sale{
-
+    position: relative;
+    left: 61.5%;
 } */
+.price__img{
+    position: relative;
+    right: 1%;
+}
 .price__subtitle{
     font-size: 2rem;
     font-weight: bolder;
@@ -548,6 +564,12 @@ body{
     max-width: 28rem;
     min-width: auto;
     padding: 3.7rem 2rem 4rem 2rem;
+    position: relative;
+    z-index: 0;
+}
+.users__background{
+    position: absolute;
+    z-index: -1;
 }
 /* .item__blockquote{
 
