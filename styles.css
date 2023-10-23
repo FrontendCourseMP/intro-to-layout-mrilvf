@@ -14,7 +14,7 @@
     font-display: swap;
     font-family: "NTsomic";
     font-style: normal;
-    src: url(C:/Users/wolfm/projects/intro-to-layout-mrilvf/NTSomic-Medium.ttf) format('ttf');
+    src: url(fonts/NTSomic-Medium.ttf) format('ttf');
 }
 *{
     margin: 0;
@@ -46,9 +46,9 @@ body{
 .menu__button{
     text-decoration: none;
 }
-.button__reg{
-    fill: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #FF010B;
-}
+/* .button__reg{
+
+} */
 /* .button__burger{
 
 } */
@@ -246,9 +246,9 @@ body{
     min-width: auto;
     margin-bottom: 2.6rem;
 }
-.details__tools{
+/* .details__tools{
 
-}
+} */
 .details__item{
     list-style-type: none;
 }
