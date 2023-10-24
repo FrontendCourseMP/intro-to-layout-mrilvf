@@ -57,9 +57,14 @@ body{
 }
 .hero__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 32rem;
     margin: 0 auto;
     padding: 0 1rem;
+}
+.hero__text-wrapper{
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto;
 }
 .hero__title{
     font-size: 2.8rem;
@@ -68,7 +73,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 32rem;
-    min-width: auto;
+    min-width: 100%;
     padding: 2.6rem 0;
 }
 .hero__title--green{
@@ -84,26 +89,26 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 32rem;
-    min-width: auto;
+    min-width: 100%;
     margin-bottom: 4rem;
 }
 /* .hero__marketplaces{
 
 }  */
 .hero__feedback{
+    width: 100%;
+    margin: 0 auto 4rem auto;
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
     border-radius: 10px;
     max-width: 28rem;
     padding: 3.5rem 2rem;
-    margin-bottom: 4rem;
     position: relative;
     z-index: 0;
 }
 .feedback__background{
     position: absolute;
     z-index: -1;
-    /* object-fit: contain; */
-
+    overflow: hidden;
 }
 .feedback__text{
     font-size: 1.6rem;
@@ -111,8 +116,8 @@ body{
     line-height: 125%;
     text-align: left;
     color: var(--second-color);
-    max-width: 27.9rem;
-    min-width: auto;
+    max-width: 28rem;
+    width: 100%;
     margin-bottom: 3rem;
 }
 .feedback__form{
@@ -127,8 +132,8 @@ body{
 .feedback__input{
     border-radius: 3rem;
     background-color: var(--second-color);
-    max-width: 28rem;
-    min-width: auto;
+    max-width: 23.5rem;
+    width: 100%;
     height: 1.1rem;
     margin-bottom: 2rem;
     padding: 1.8rem 2.2rem 1.9rem 1.9rem;
@@ -142,7 +147,7 @@ body{
     background: linear-gradient(var(--sixth-color),var(--seventh-color),var(--fifth-color));
     box-shadow: 0rem 0rem 3rem 0rem #50ABDC;
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     height: 4.5rem;
     padding: 1.6rem 5.8rem;
     
@@ -152,17 +157,16 @@ body{
 } */
 .numbers__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 28rem;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 4rem 2rem;
+    background-color: var(--eighth-color);
+    border-radius: 10px;
 }
 .numbers__list{
-    border-radius: 10px;
     list-style-type: none;
-    background-color: var(--eighth-color);
     max-width: 28rem;
-    min-width: auto;
-    padding: 4rem 2rem;
+    width: 100%;
     margin-bottom: 5.6rem;
 }
 /* .numbers__item{
@@ -175,7 +179,7 @@ body{
     text-align: left;
     color: var(--sixth-color);
     max-width: 2.8rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 1.7rem;
 }
 .numbers__text{
@@ -185,12 +189,12 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 4rem;
 }
 .features__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 32rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -201,7 +205,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     padding: 2.6rem 0;
 }
 .features__analytics{
@@ -212,7 +216,7 @@ body{
     border-radius: 10px;
     background-color: var(--eighth-color);
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     height: 2.7rem;
     padding: 1.6rem 2rem 1.6rem 2rem;
     margin-bottom: 1rem;
@@ -233,7 +237,7 @@ body{
     border-radius: 10px;
     background-color: #F6FAFF;
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     padding: 2.7rem 2rem 4rem 2rem;
 }
 .details__subtitle{
@@ -243,7 +247,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2.6rem;
 }
 /* .details__tools{
@@ -262,7 +266,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 25.7rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2rem;
 }
 .details__img{
@@ -277,7 +281,7 @@ body{
     border-radius: 3rem;
     background: linear-gradient(var(--sixth-color),var(--seventh-color),var(--fifth-color));
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     height: 4.2rem;
     padding: 1.4rem;
 }
@@ -305,7 +309,7 @@ body{
 }
 .info__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 32rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -316,7 +320,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     padding: 2.6rem 0rem 2.1rem 0rem;
 }
 .info__text{
@@ -326,7 +330,7 @@ body{
     text-align: left;
     color: #707070;
     max-width: 28.6rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 3.1rem;
 }
 .info__offer{
@@ -336,8 +340,8 @@ body{
 .offer__item{
     border-radius: 10px;
     background-color: var(--eighth-color);
-    max-width: 27.2rem;
-    min-width: auto;
+    max-width: 28rem;
+    width: 100%;
     padding: 2rem 2rem 2.8rem 2rem;
     margin-bottom: 1rem;
 }
@@ -351,14 +355,14 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 25.1rem;
-    min-width: auto;
+    width: 100%;
 }
 .info__img{
     margin-bottom: 3rem;
 }
 .about__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 32rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -369,7 +373,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     padding: 2.6rem 0;
 }
 .about__advantages{
@@ -380,8 +384,8 @@ body{
     background-color: var(--eighth-color);
     border-radius: 10px;
     max-width: 28rem;
-    min-width: auto;
-    padding: 2rem 2.7rem 2rem 3.6rem;
+    width: 100%;
+    padding: 2.7rem 2rem 3.6rem 2rem;
     margin-bottom: 1rem;
 
 }
@@ -395,7 +399,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 24.5rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 1.8rem;
 }
 .advantage__text{
@@ -405,7 +409,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
 }
 .about__feedback{
     background-image: linear-gradient(var(--seventh-color), var(--sixth-color),var(--fifth-color));
@@ -422,7 +426,7 @@ body{
 }
 .subscribe__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 32rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -433,7 +437,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     padding: 2.6rem 0;
 }
 .subscribe__list{
@@ -450,18 +454,22 @@ body{
     color: var(--second-color);
     border-radius: 30px;
     background: var(--seventh-color);
-    padding: 13px 28px;
+    max-width: 13.2rem;
+    width: 100%;
+    height: 3.8rem;
+    padding: 1.3rem 2.8rem;
     margin-bottom: 3rem;
     
 }
 .month__price{
     list-style-type: none;
+    
 }
 .list__price{
     border-radius: 10px;
     background-color: var(--eighth-color);
-    max-width: 32rem;
-    min-width: auto;
+    max-width: 28rem;
+    width: 100%;
     min-height: 23.7rem;
     padding: 3.1rem 2rem 3rem 2rem;
     margin-bottom: 1rem;
@@ -488,7 +496,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 23.3rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2.2rem;
 }
 .price__text--grey{
@@ -498,7 +506,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 29rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 1.3rem;
 }
 .price__text--blue{
@@ -508,7 +516,7 @@ body{
     text-align: left;
     color: var(--sixth-color);
     max-width: 29rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 3rem;
 }
 .price__link--try{
@@ -521,6 +529,8 @@ body{
     color: var(--second-color);
     border-radius: 30px;
     background: linear-gradient(var(--seventh-color),var(--sixth-color));
+    max-width: 10.6rem;
+    width: 100%;
     padding: 1.5rem 8.7rem 1.5rem 8.7rem;
     margin-bottom: 1rem;
 }
@@ -536,12 +546,14 @@ body{
     border-width: 1px;
     border-color: #11AE88;
     border-style: solid;
+    max-width: 10.6rem;
+    width: 100%;
     padding: 1.5rem 8.7rem 1.5rem 8.7rem;
     margin-bottom: 1rem;
 }
 .reviews__wrapper{
     width: 100%;
-    max-width: 65ch;
+    max-width: 32rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -552,7 +564,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     padding: 2.6rem 0;
 }
 .reviews__users{
@@ -562,7 +574,7 @@ body{
     border-radius: 10px;
     background-color: var(--eighth-color);
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     padding: 3.7rem 2rem 4rem 2rem;
     position: relative;
     z-index: 0;
@@ -584,7 +596,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 28rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 3.9rem;
 }
 .blockquote__cite{
@@ -594,7 +606,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 2.8rem;
-    min-width: auto;
+    width: 100%;
 }
 .users__link{
   text-decoration: none;
@@ -604,7 +616,7 @@ body{
   text-align: left;
   color: var(--fifth-color);
   max-width: 22.2rem;
-  min-width: auto;
+  width: 100%;
 }
 /* .users__img{
 
@@ -657,7 +669,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 12.8rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2.6rem;
 }
 /* .service__navigation{
@@ -672,7 +684,7 @@ body{
     text-decoration: none;
     display: block;
     max-width: 15rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2.6rem;
 }
 .footer__clients{
@@ -685,7 +697,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 12.8rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2.6rem;
 }
 /* .clients__navigation{
@@ -701,7 +713,7 @@ body{
     text-align: left;
     color: var(--first-color);
     max-width: 20rem;
-    min-width: auto;
+    width: 100%;
     margin-bottom: 2.6rem;
 }
 /* .documentation__navigation{
@@ -726,7 +738,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     margin-top: 2rem;
 }
 .footer__text{
@@ -736,7 +748,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     margin-top: 2rem;
 }
 .footer__designer{
@@ -746,7 +758,7 @@ body{
     text-align: left;
     color: var(--third-color);
     max-width: 32rem;
-    min-width: auto;
+    width: 100%;
     margin-top: 2rem;
 }
 .footer__designer--green{
