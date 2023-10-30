@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Mpassistant</title>
 </head>
 
@@ -43,14 +43,12 @@
                     </p>
                 </div>
                 <div class="hero__feedback feedback">
-                    <img src="images/background-feedback1.png" alt="Фоновые элементы формы"
-                        class="feedback__background">
                     <p class="feedback__text">
                         Начните свой 3-дневный пробный период
                         с неограниченным доступом ко всем
                         возможностям
                     </p>
-                    <form action="" class="feedback__form">
+                    <form class="feedback__form">
                         <label class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
                             <input type="email" class="feedback__input" placeholder="Введите ваш email">
@@ -94,7 +92,7 @@
                 <ul class="features__analytics analytics">
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
-                        <label for="" class="analytics__subtitle">Финансовая аналитика</label>
+                        <label class="analytics__subtitle">Финансовая аналитика</label>
                         <div class="analytics__details details">
                             <h3 class="details__subtitle">Инструменты для финансовой аналитики</h3>
                             <ul class="details__tools">
@@ -119,43 +117,43 @@
                                     <p class="details__text">Учёт самовыкупов</p>
                                 </li>
                             </ul>
-                            <img src="images/capabilities-1 1.png" alt="Таблица статистики операций" class="details__img">
+                            <img src="images/capabilities-1.png" alt="Таблица статистики операций" class="details__img">
                             <button type="submit" class="details__button">Попробовать бесплатно</button>
                         </div>
                     </li>
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
-                        <label for="" class="analytics__subtitle">Товарная аналитика</label>
+                        <label class="analytics__subtitle">Товарная аналитика</label>
                     </li>
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
-                        <label for="" class="analytics__subtitle">Аналитика внутренней рекламы</label>
+                        <label class="analytics__subtitle">Аналитика внутренней рекламы</label>
                     </li>
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
-                        <label for="" class="analytics__subtitle">Статистика</label>
+                        <label class="analytics__subtitle">Статистика</label>
                     </li>
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
-                        <label for="" class="analytics__subtitle">Инструменты</label>
+                        <label class="analytics__subtitle">Инструменты</label>
                     </li>
                 </ul>
                 <div class="features__feedback feedback">
-                    <img src="images/background-feedback2.png" alt="Фоновые элементы формы"
-                        class="feedback__background">
                     <h2 class="feedback__title">Начните экономить свое время</h2>
                     <p class="feedback__text">
                         3-дневный пробный период
                         с неограниченным доступом ко всем возможностям
                     </p>
-                    <form action="" class="feedback__form">
-                        <label for="" class="feedback__label">
+                    <form class="feedback__form">
+                        <label class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
                             <input type="email" class="feedback__input" placeholder="Введите ваш email">
                         </label>
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
-                    <img src="images/women1.png" alt="Женщина с ноутбуком, на фоне часов" class="feedback__img-clock">
+                    <div class="feedback__images images">
+                        <img src="images/women1.png" alt="Женщина с ноутбуком, на фоне часов" class="images__img-clock">
+                    </div>
                 </div>
             </div>
         </section>
@@ -238,20 +236,21 @@
                     </li>
                 </ul>
                 <div class="about__feedback feedback">
-                    <img src="images/background-feedback3.png" alt="" class="feedback__background">
                     <h2 class="feedback__title">Попробуйте бесплатно</h2>
                     <p class="feedback__text">
                         Начните свой 3-дневный пробный период
                         с неограниченным доступом ко всем возможностям
                     </p>
-                    <form action="" class="feedback__form">
-                        <label for="" class="feedback__label">
+                    <form class="feedback__form">
+                        <label class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
                             <input type="email" class="feedback__input" placeholder="Введите ваш email">
                         </label>
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
-                    <img src="images/women2.png" alt="Женщина с ноутбуком, на фоне подарков" class="feedback__img-gift">
+                    <div class="feedback__images images">
+                        <img src="images/women2.png" alt="Женщина с ноутбуком, на фоне подарков" class="images__img-gift">
+                    </div>
                 </div>
             </div>
         </section>
@@ -291,7 +290,9 @@
                                 <p class="price__text price__text--blue">Бесплатно</p>
                                 <a href="" class="price__link price__link--try">Попробовать</a>
                                 <a href="" class="price__link price__link--detail">Подробнее</a>
-                                <img src="images/women4.png" alt="Женщина на фоне подарков" class="price__img">
+                                <div class="price__images images">
+                                    <img src="images/women4.png" alt="Женщина на фоне подарков" class="images__img">
+                                </div>
                             </li>
                         </ul>
                     </li>
