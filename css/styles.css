@@ -14,9 +14,9 @@
     font-display: swap;
     font-family: "NTsomic";
     font-style: normal;
-    src: url(fonts/NTSomic-Medium.ttf) format('ttf');
-    src: url(fonts/NTSomic-Bold.ttf) format('ttf');
-    src: url(fonts/NTSomic-Regular.ttf) format('ttf');
+    src: url(intro-to-layout-mrilvf/fonts/NTSomic-Medium.ttf) format('ttf');
+    src: url(intro-to-layout-mrilvf/fonts/NTSomic-Bold.ttf) format('ttf');
+    src: url(intro-to-layout-mrilvf/fonts/NTSomic-Regular.ttf) format('ttf');
 }
 *{
     box-sizing: border-box;
