@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Mpassistant</title>
 </head>
 
@@ -34,7 +34,8 @@
                         <span class="hero__title hero__title--green">Внутренняя аналитика</span>
                         и <span class="hero__title hero__title--blue">финансовый учёт</span>
                         для бизнеса на маркетплейсах
-                        <img src="images/small-marketplaces-logos.png" alt="Логотип Ozon и WB" class="hero__marketplaces">
+                        <img src="images/small-marketplaces-logos.png" alt="Логотип Ozon и WB"
+                            class="hero__marketplaces">
                     </h2>
                     <p class="hero__text">
                         Увеличивай прибыль, автоматизируй рутину
@@ -42,7 +43,8 @@
                     </p>
                 </div>
                 <div class="hero__feedback feedback">
-                    <img src="images/background-feedback1.png" alt="Фоновые элементы формы" class="feedback__background">
+                    <img src="images/background-feedback1.png" alt="Фоновые элементы формы"
+                        class="feedback__background">
                     <p class="feedback__text">
                         Начните свой 3-дневный пробный период
                         с неограниченным доступом ко всем
@@ -60,27 +62,29 @@
         </section>
         <section class="numbers">
             <div class="numbers__wrapper">
-                <h2 class="visually-hidden">Статистика сервиса</h2>
-                <ul class="numbers__list">
-                    <li class="numbers__item">
-                        <span class="numbers__accent">777</span>
-                        <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
-                            и анализе
-                            отчётов</p>
-                    </li>
-                    <li class="numbers__item">
-                        <span class="numbers__accent">5</span>
-                        <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
-                            и анализе
-                            отчётов</p>
-                    </li>
-                    <li class="numbers__item">
-                        <span class="numbers__accent">100 000</span>
-                        <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
-                            и анализе
-                            отчётов</p>
-                    </li>
-                </ul>
+                <div class="numbers__background">
+                    <h2 class="visually-hidden">Статистика сервиса</h2>
+                    <ul class="numbers__list">
+                        <li class="numbers__item">
+                            <span class="numbers__accent">777</span>
+                            <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+                                и анализе
+                                отчётов</p>
+                        </li>
+                        <li class="numbers__item">
+                            <span class="numbers__accent">5</span>
+                            <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+                                и анализе
+                                отчётов</p>
+                        </li>
+                        <li class="numbers__item">
+                            <span class="numbers__accent">100 000</span>
+                            <p class="numbers__text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+                                и анализе
+                                отчётов</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -91,34 +95,34 @@
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
                         <label for="" class="analytics__subtitle">Финансовая аналитика</label>
+                        <div class="analytics__details details">
+                            <h3 class="details__subtitle">Инструменты для финансовой аналитики</h3>
+                            <ul class="details__tools">
+                                <li class="details__item">
+                                    <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
+                                    <p class="details__text">Отчёт о прибылях и убытках (P&L)</p>
+                                </li>
+                                <li class="details__item">
+                                    <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
+                                    <p class="details__text">Отчёт о движении денежных средств (ДДС)</p>
+                                </li>
+                                <li class="details__item">
+                                    <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
+                                    <p class="details__text">Журнал операций</p>
+                                </li>
+                                <li class="details__item">
+                                    <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
+                                    <p class="details__text">Сводка продаж</p>
+                                </li>
+                                <li class="details__item">
+                                    <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
+                                    <p class="details__text">Учёт самовыкупов</p>
+                                </li>
+                            </ul>
+                            <img src="images/capabilities-1 1.png" alt="Таблица статистики операций" class="details__img">
+                            <button type="submit" class="details__button">Попробовать бесплатно</button>
+                        </div>
                     </li>
-                    <div class="analytics__details details">
-                        <h3 class="details__subtitle">Инструменты для финансовой аналитики</h3>
-                        <ul class="details__tools">
-                            <li class="details__item">
-                                <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
-                                <p class="details__text">Отчёт о прибылях и убытках (P&L)</p>
-                            </li>
-                            <li class="details__item">
-                                <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
-                                <p class="details__text">Отчёт о движении денежных средств (ДДС)</p>
-                            </li>
-                            <li class="details__item">
-                                <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
-                                <p class="details__text">Журнал операций</p>
-                            </li>
-                            <li class="details__item">
-                                <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
-                                <p class="details__text">Сводка продаж</p>
-                            </li>
-                            <li class="details__item">
-                                <img src="images/circle.svg" alt="Декорация списка" class="details__ellipse">
-                                <p class="details__text">Учёт самовыкупов</p>
-                            </li>
-                        </ul>
-                        <img src="images/capabilities-1 1.png" alt="Таблица статистики операций" class="details__img">
-                        <button type="submit" class="details__button">Попробовать бесплатно</button>
-                    </div>
                     <li class="analytics__item">
                         <input type="checkbox" class="analytics__checkbox">
                         <label for="" class="analytics__subtitle">Товарная аналитика</label>
@@ -137,7 +141,8 @@
                     </li>
                 </ul>
                 <div class="features__feedback feedback">
-                    <img src="images/background-feedback2.png" alt="Фоновые элементы формы" class="feedback__background">
+                    <img src="images/background-feedback2.png" alt="Фоновые элементы формы"
+                        class="feedback__background">
                     <h2 class="feedback__title">Начните экономить свое время</h2>
                     <p class="feedback__text">
                         3-дневный пробный период
@@ -162,7 +167,8 @@
                 <ul class="info__offer offer">
                     <li class="offer__item">
                         <img src="images/vector.svg" alt="Изображение галочки" class="offer__img">
-                        <p class="offer__text">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте</p>
+                        <p class="offer__text">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте
+                        </p>
                     </li>
                     <li class="offer__item">
                         <img src="images/vector.svg" alt="Изображение галочки" class="offer__img">
@@ -175,7 +181,8 @@
                     </li>
                 </ul>
                 <figure class="info__image">
-                    <img src="images/info.png" alt="Mpassistant собирает отчеты по маркетплейсам Ozon и Widberries" class="info__img">
+                    <img src="images/info.png" alt="Mpassistant собирает отчеты по маркетплейсам Ozon и Widberries"
+                        class="info__img">
                 </figure>
             </div>
         </section>
@@ -401,7 +408,8 @@
             <ul class="footer__payment payment">
                 <li class="payment__cards">
                     <a href="" class="payment__card">
-                        <img src="images/modulbank.png" alt="поддержка оплаты банковской картой модульбанк" class="payment__img">
+                        <img src="images/modulbank.png" alt="поддержка оплаты банковской картой модульбанк"
+                            class="payment__img">
                     </a>
                 </li>
                 <li class="payment__cards">
@@ -411,12 +419,14 @@
                 </li>
                 <li class="payment__cards">
                     <a href="" class="payment__card">
-                        <img src="images/mastercard.png" alt="поддержка оплаты банковской картой mastercard" class="payment__img">
+                        <img src="images/mastercard.png" alt="поддержка оплаты банковской картой mastercard"
+                            class="payment__img">
                     </a>
                 </li>
                 <li class="payment__cards">
                     <a href="" class="payment__card">
-                        <img src="images/maestro.png" alt="поддержка оплаты банковской картой maestro" class="payment__img">
+                        <img src="images/maestro.png" alt="поддержка оплаты банковской картой maestro"
+                            class="payment__img">
                     </a>
                 </li>
                 <li class="payment__cards">
