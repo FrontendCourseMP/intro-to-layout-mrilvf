@@ -147,13 +147,11 @@ body {
 
 }
 
-.group__select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #b2a6d9;
-    border-radius: 4px;
+.group__input--radio{
+    width: auto; 
+    padding: 0;
 }
+
 
 .footer__wrapper {
     width: 100%;

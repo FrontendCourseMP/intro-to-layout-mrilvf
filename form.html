@@ -41,11 +41,13 @@
                             <input type="date" class="group__input" id="dob" name="dob" required>
                         </div>
                         <div class="hero__group group">
-                            <label for="gender" class="group__label">Пол:</label>
-                            <select class="group__select" id="gender" name="gender" required>
-                                <option value="male">Мужской</option>
-                                <option value="female">Женский</option>
-                            </select>
+                            <label class="group__label">Пол:</label>
+                            <label for="male" class="group__label">Мужской</label>
+                            <input type="radio" class="group__input--radio" name="gender" required>
+                            <label for="female" class="group__label">Женский</label>
+                            <input type="radio" class="group__input--radio" name="gender" required>
+                            <label for="other" class="group__label">Не указано</label>
+                            <input type="radio" class="group__input--radio" name="gender" required>
                         </div>
                     </fieldset>
                     <fieldset class="hero__fieldset">
@@ -61,12 +63,14 @@
                         </div>
                         <div class="hero__group group">
                             <label for="contact-time" class="group__label">Удобный интервал для связи:</label>
-                            <select class="group__select" id="contact-time" name="contact-time">
-                                <option value="morning">Утро</option>
-                                <option value="day">День</option>
-                                <option value="evening">Вечер</option>
-                                <option value="night">Ночь</option>
-                            </select>
+                            <label for="morning" class="group__label">Утро</label>
+                            <input type="radio" class="group__input--radio" name="time" required>
+                            <label for="daytime" class="group__label">День</label>
+                            <input type="radio" class="group__input--radio" name="time" required>
+                            <label for="evening" class="group__label">Вечер</label>
+                            <input type="radio" class="group__input--radio" name="time" required>
+                            <label for="night" class="group__label">Ночь</label>
+                            <input type="radio" class="group__input--radio" name="time" required>
                         </div>
                     </fieldset>
                     <div class="hero__group group">
