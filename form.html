@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gridcss.css">
-    <title>Grid</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="formcss.css">
 </head>
 
 <body>
@@ -25,54 +25,54 @@
             </nav>
         </div>
     </header>
-    <section class="pit">
-        <div class="pit__wrapper">
-            <div class="pit__picture picture">
-                <div class="picture__white1x7"></div>
-                <div class="picture__yellow1x5"></div>
-                <div class="picture__red8x7"></div>
-                <div class="picture__yellow4x5"></div>
-                <div class="picture__white4x3"></div>
-                <div class="picture__white4x2"></div>
-                <div class="picture__black2x3"></div>
-                <div class="picture__white2x4"></div>
-                <div class="picture__white2x5"></div>
+    <main>
+        <section class="form">
+            <div class="form__wrapper">
+                <form action="//httpbin.org/post" class="form__hero hero" method="post">
+                    <h2 class="hero__title">Регистрация пользователя</h2>
+                    <div class="hero__group group">
+                        <label for="name" class="group__label">Имя:</label>
+                        <input type="text" class="group__input" id="name" name="name" placeholder="Введите ваше имя"
+                            required>
+                    </div>
+                    <div class="hero__group group">
+                        <label for="dob" class="group__label">Дата рождения:</label>
+                        <input type="date" class="group__input" id="dob" name="dob" required>
+                    </div>
+                    <div class="hero__group group">
+                        <label for="gender" class="group__label">Пол:</label>
+                        <select class="group__select" id="gender" name="gender" required>
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                    </div>
+                    <div class="hero__group group">
+                        <label for="email" class="group__label">Почта:</label>
+                        <input type="email" class="group__input" id="email" name="email" placeholder="Введите ваш email"
+                            required>
+                    </div>
+                    <div class="hero__group group">
+                        <label for="password" class="group__label">Пароль:</label>
+                        <input type="password" class="group__input" id="password" name="password"
+                            placeholder="Введите ваш пароль" required>
+                    </div>
+                    <div class="hero__group group">
+                        <label for="contact-time" class="group__label">Удобный интервал для связи:</label>
+                        <select class="group__select" id="contact-time" name="contact-time">
+                            <option value="morning">Утро</option>
+                            <option value="day">День</option>
+                            <option value="evening">Вечер</option>
+                            <option value="night">Ночь</option>
+                        </select>
+                    </div>
+                    <div class="hero__group group">
+                        <input type="submit" class="group__input" value="Отправить">
+                        <input type="reset" class="group__input" value="Сбросить">
+                    </div>
+                </form>
             </div>
-        </div>
-    </section>
-    <section class="dashboard">
-        <div class="dashboard__wrapper">
-            <div class="dashboard__sidebar sidebar">
-                <a href="" class="sidebar__link">ссылка</a>
-                <a href="" class="sidebar__link">ссылка</a>
-                <a href="" class="sidebar__link">ссылка</a>
-            </div>
-            <div class="dashboard__main main">
-                <img src="images_grid/chart1.svg" alt="" class="main__chart1">
-                <img src="images_grid/chart2_1.svg" alt="" class="main__chart2x1">
-                <img src="images_grid/chart2_2.svg" alt="" class="main__chart2x2">
-                <img src="images_grid/chart2_3.svg" alt="" class="main__chart2x3">
-                <img src="images_grid/chart3_1.svg" alt="" class="main__chart3x1">
-                <img src="images_grid/chart3_2.svg" alt="" class="main__chart3x2">
-            </div>
-        </div>
-    </section>
-    <section class="gallery">
-        <div class="gallery__wrapper">
-            <div class="gallery__item">
-                <img src="images_grid/1.jpeg" alt="Котик1" class="gallery__img">
-                <a href="" class="gallery__link">Кнопка</a>
-            </div>
-            <div class="gallery__item">
-                <img src="images_grid/2.jpeg" alt="Котик2" class="gallery__img">
-                <a href="" class="gallery__link">Кнопка</a>
-            </div>
-            <div class="gallery__item">
-                <img src="images_grid/3.jpeg" alt="Котик3" class="gallery__img">
-                <a href="" class="gallery__link">Кнопка</a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer class="footer">
         <div class="footer__wrapper">
             <a href="" class="footer__logo logo">
@@ -165,7 +165,6 @@
             </p>
         </div>
     </footer>
-
 
 </body>
 
