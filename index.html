@@ -49,10 +49,10 @@
                         с неограниченным доступом ко всем
                         возможностям
                     </p>
-                    <form class="feedback__form">
-                        <label class="feedback__label">
+                    <form class="feedback__form" action="//httpbin.org/post" method="post">
+                        <label for="email" class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
-                            <input type="email" class="feedback__input" placeholder="Введите ваш email">
+                            <input type="email" id="email" name="email" class="feedback__input" placeholder="Введите ваш email" required>
                         </label>
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
@@ -145,10 +145,10 @@
                         3-дневный пробный период
                         с неограниченным доступом ко всем возможностям
                     </p>
-                    <form class="feedback__form">
-                        <label class="feedback__label">
+                    <form class="feedback__form" action="//httpbin.org/post" method="post">
+                        <label for="email" class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
-                            <input type="email" class="feedback__input" placeholder="Введите ваш email">
+                            <input type="email" id="email" name="email" class="feedback__input" placeholder="Введите ваш email" required>
                         </label>
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
@@ -254,10 +254,10 @@
                         Начните свой 3-дневный пробный период
                         с неограниченным доступом ко всем возможностям
                     </p>
-                    <form class="feedback__form">
-                        <label class="feedback__label">
+                    <form class="feedback__form" action="//httpbin.org/post" method="post">
+                        <label for="email" class="feedback__label">
                             <span class="visually-hidden">Введите ваш email</span>
-                            <input type="email" class="feedback__input" placeholder="Введите ваш email">
+                            <input type="email" id="email" name="email" class="feedback__input" placeholder="Введите ваш email" required>
                         </label>
                         <button type="submit" class="feedback__button feedback__button--submit">Попробовать</button>
                     </form>
@@ -454,8 +454,8 @@
             <p class="footer__designer">Редизайн сайта
                 <span class="footer__designer footer__designer--green">Turkuletdesign</span>
             </p>
-            <link rel="stylesheet" href="grid.html">
-            <link rel="stylesheet" href="form.html">
+            <a href="grid.html" class="">Гриды</a>
+            <a href="form.html" class="">Форма</a>
         </div>
     </footer>
 

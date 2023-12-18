@@ -108,6 +108,10 @@ body {
     margin: 0 auto;
 }
 
+.hero__fieldset {
+    border: none;
+}
+
 .form__hero {
     width: 400px;
     padding: 20px;
@@ -140,6 +144,7 @@ body {
     margin-bottom: 10px;
     border: 1px solid #b2a6d9;
     border-radius: 4px;
+
 }
 
 .group__select {
