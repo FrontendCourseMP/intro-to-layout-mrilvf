@@ -385,6 +385,11 @@ body {
 } */
 .details__item {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* .details__ellipse{
@@ -397,7 +402,6 @@ body {
     text-align: left;
     color: var(--third-color);
     width: 100%;
-    margin-bottom: 2rem;
 }
 
 .details__img {
@@ -1035,6 +1039,9 @@ body {
     .hero__dimg {
         display: none;
     }
+    .details__img--big{
+        display: none;
+    }
 
 }
 
@@ -1056,6 +1063,9 @@ body {
     }
 
     .burger__img {
+        display: none;
+    }
+    .details__img--small{
         display: none;
     }
 
@@ -1097,50 +1107,26 @@ body {
     }
     .features__title {
         font-size: 4.6rem;
-
     }
     
     .features__analytics {
         list-style-type: none;
         margin-bottom: 5rem;
-    }
-    
-    .analytics__item {
-        border-radius: 10px;
-        background-color: var(--eighth-color);
-        width: 100%;
-        padding: 1.6rem 2rem 1.6rem 2rem;
-        margin-bottom: 1rem;
-    }
-    
+    } 
     .analytics__checkbox {
-        position: relative;
-        left: 95%;
+        display: none;
     }
     
     .analytics__subtitle {
-        font-size: 1.8rem;
-        font-weight: 400;
-        line-height: 125%;
-        text-align: left;
-        color: var(--fifth-color);
+        font-size: 2.6rem;
     }
     
     .analytics__details {
-        border-radius: 10px;
-        background-color: #F6FAFF;
-        width: 100%;
-        padding: 2.7rem 2rem 4rem 2rem;
+        padding: 6rem 4rem;
     }
     
     .details__subtitle {
-        font-size: 1.6rem;
-        font-weight: bolder;
-        line-height: 125%;
-        text-align: left;
-        color: var(--first-color);
-        width: 100%;
-        margin-bottom: 2.6rem;
+        font-size: 3rem;
     }
     
     /* .details__tools{
@@ -1154,13 +1140,7 @@ body {
     
     } */
     .details__text {
-        font-size: 1.6rem;
-        font-weight: normal;
-        line-height: 125%;
-        text-align: left;
-        color: var(--third-color);
-        width: 100%;
-        margin-bottom: 2rem;
+        font-size: 2.2rem;
     }
     
     .details__img {
@@ -1169,12 +1149,7 @@ body {
     }
     
     .details__button {
-        font-size: 1.6rem;
-        font-weight: 400;
-        line-height: 125%;
-        color: var(--second-color);
-        border-radius: 3rem;
-        background: linear-gradient(var(--sixth-color), var(--seventh-color), var(--fifth-color));
+        font-size: 1.8rem;
         width: 100%;
         padding: 1.4rem;
     }
