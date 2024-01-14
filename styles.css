@@ -632,12 +632,12 @@ body {
     padding: 0.8rem 2.8rem;
 }
 
-.month__price {
+.subscribe__card {
     list-style-type: none;
 
 }
 
-.list__price {
+.subscribe__card {
     border-radius: 10px;
     background-color: var(--eighth-color);
     width: 100%;
@@ -645,11 +645,11 @@ body {
     margin-bottom: 1rem;
 }
 
-.list__price--pro {
+.subscribe__card--pro {
     background-color: #E7F7F3;
 }
 
-.list__price--seller {
+.subscribe__card--seller {
     background: linear-gradient(#FFF1D7, #FFB57F);
     padding: 3.1rem 2rem 0rem 2rem;
 }
@@ -658,7 +658,7 @@ body {
     position: relative;
     left: 61.5%;
 } */
-.price__images {
+.card__images {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -667,7 +667,7 @@ body {
 /* .images__img{
 
 } */
-.price__subtitle {
+.card__subtitle {
     font-size: 2rem;
     font-weight: bolder;
     line-height: 125%;
@@ -677,7 +677,7 @@ body {
     margin-bottom: 2.2rem;
 }
 
-.price__text--grey {
+.card__text--grey {
     font-size: 1.8rem;
     font-weight: normal;
     line-height: 125%;
@@ -687,7 +687,7 @@ body {
     margin-bottom: 1.3rem;
 }
 
-.price__text--blue {
+.card__text--blue {
     font-size: 2.6rem;
     font-weight: normal;
     line-height: 125%;
@@ -697,7 +697,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.price__link--try {
+.card__link--try {
     display: block;
     font-size: 1.6rem;
     font-weight: normal;
@@ -712,7 +712,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.price__link--detail {
+.card__link--detail {
     display: block;
     font-size: 1.6rem;
     font-weight: normal;
