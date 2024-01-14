@@ -810,7 +810,28 @@ body {
     background-color: var(--eighth-color);
     margin-top: 6.5rem;
 }
-
+.footer__flex1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+.footer__flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.7rem;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.footer__flex3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.7rem;
+    flex-wrap: wrap;
+    gap:2.7rem;
+}
 .footer__logo {
     text-decoration: none;
 }
@@ -925,7 +946,6 @@ body {
 } */
 .footer__payment {
     list-style-type: none;
-    margin-bottom: 4rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -933,9 +953,9 @@ body {
     gap: 1rem 1rem;
 }
 
-.payment__cards {
+/* .payment__cards {
     margin-bottom: 2rem;
-}
+} */
 
 .payment__card {
     text-decoration: none;
@@ -950,8 +970,6 @@ body {
     line-height: 125%;
     text-align: left;
     color: var(--third-color);
-    width: 100%;
-    margin-bottom: 2.7rem;
 }
 
 .footer__text {
@@ -960,8 +978,6 @@ body {
     line-height: 125%;
     text-align: left;
     color: var(--third-color);
-    width: 100%;
-    margin-bottom: 2.7rem;
 }
 
 .footer__designer {
@@ -970,14 +986,13 @@ body {
     line-height: 125%;
     text-align: left;
     color: var(--third-color);
-    width: 100%;
 }
 
 .footer__designer--green {
     color: var(--fifth-color);
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1667px) {
     .header__dtitle {
         display: none;
     }
@@ -1045,7 +1060,7 @@ body {
 
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1667px) {
     .header__menu {
         display: none;
     }
@@ -1067,6 +1082,9 @@ body {
     }
     .details__img--small{
         display: none;
+    }
+    .header__wrapper{
+        padding: 3rem 16rem 0rem 16rem;
     }
 
     .hero__wrapper{
@@ -1091,6 +1109,11 @@ body {
     .hero__feedback{
         max-width: 782px;
         margin-left: 0;
+    }
+    .numbers__wrapper {
+        margin-bottom: 10rem;
+        padding: 0rem 16rem;
+
     }
     .numbers__list {
         display: flex;
@@ -1179,6 +1202,8 @@ body {
         align-items: center;
         justify-content: center;
     }
-    
+    .footer__flex2{
+        flex-direction: row-reverse;
+    }
 
 }
