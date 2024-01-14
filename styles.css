@@ -364,6 +364,8 @@ body {
 }
 
 .analytics__details {
+    display: flex;
+    gap: 3rem;
     border-radius: 10px;
     background-color: #F6FAFF;
     width: 100%;
@@ -1054,9 +1056,6 @@ body {
     .hero__dimg {
         display: none;
     }
-    .details__img--big{
-        display: none;
-    }
 
 }
 
@@ -1129,6 +1128,10 @@ body {
         font-size: 2.2rem;
         
     }
+    .features__wrapper{
+        padding: 0rem 16rem;
+        margin-bottom: 10rem;
+    }
     .features__title {
         font-size: 4.6rem;
     }
@@ -1166,42 +1169,73 @@ body {
     .details__text {
         font-size: 2.2rem;
     }
-    
+    .features__feedback{
+        padding: 0rem 4rem;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .details__img {
         border-radius: 10px;
-        margin-bottom: 3rem;
     }
     
     .details__button {
         font-size: 1.8rem;
-        width: 100%;
+        width: 290px;
+        
         padding: 1.4rem;
     }
-    
-    .features__feedback {
-        max-width: 2560px;
-        padding: 3.5rem 2rem 0rem 2rem;
-        margin-bottom: 4rem;
-        background-image: url("images/background-feedback2.jpg");
-        background-color: var(--seventh-color);
-        border-radius: 10px;
-        background-size: cover;
+    .about__feedback{
+        padding: 0rem 4rem;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
     
     .feedback__title {
-        font-size: 2.1rem;
-        font-weight: bolder;
-        line-height: 115%;
-        text-align: left;
-        color: var(--second-color);
-        margin-bottom: 2.1rem;
+        font-size: 4.6rem;
+        margin-bottom: 3.3rem;
     }
-    
-    .feedback__images {
+    .feedback__text{
+        font-size: 2.1rem;
+        margin-bottom: 4rem;
+    }
+    .feedback__button--submit{
+        font-size: 1.8rem;
+    }
+
+    .info__wrapper {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        gap: 13rem;
+        padding: 0rem 16rem;
+        margin-bottom: 10rem;
     }
+    .info__title {
+        font-size: 4.6rem;
+        margin-bottom: 4.5rem;
+    }
+    .info__text {
+        font-size: 2.6rem;
+    }
+    .offer__item {
+        padding: 4rem;
+    }
+    .offer__img {
+    }
+    .offer__text {
+        font-size: 2.6rem;
+    }
+    .info__images {
+    }
+    .info__img {
+    }
+
     .footer__flex2{
         flex-direction: row-reverse;
     }
