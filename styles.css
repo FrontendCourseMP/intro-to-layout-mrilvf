@@ -1205,5 +1205,26 @@ body {
     .footer__flex2{
         flex-direction: row-reverse;
     }
+    .service__subtitle {
+        font-size: 2.2rem;
+    }
+    .clients__subtitle{
+        font-size: 2.2rem;
+    }
+    .documentation__subtitle{
+        font-size: 2.2rem;
+    }
+    .navigation__button{
+        font-size: 2.2rem;
+    }
+    .footer__copyright{
+        font-size: 20px;
+    }
+    .footer__text{
+        font-size: 20px;
+    }
+    .footer__designer{
+        font-size: 20px;
+    }
 
 }
