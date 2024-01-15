@@ -147,7 +147,7 @@
                                         <p class="details__text">Учёт самовыкупов</p>
                                     </li>
                                 </ul>
-                                <button type="submit" class="details__button">Попробовать бесплатно</button>
+                                <button type="submit" class="details__button--desktop">Попробовать бесплатно</button>
                             </div>
                             <div class="details__flex2">
                                 <picture class="details__images">
@@ -156,6 +156,7 @@
                                     <img src="images/capabilities-1.jpg" alt="Таблица статистики операций" class="details__img">
                                 </picture> 
                             </div>
+                            <button type="submit" class="details__button--mobile">Попробовать бесплатно</button>
                         </div>
                     </li>
                     <li class="analytics__item">
@@ -237,7 +238,7 @@
                     </ul>
                 </div>
                 <div class="info__images">
-                    <picture class="info__images">
+                    <picture class="info__picture">
                         <source srcset="images/info1.png" class="info__img" media="(min-width: 1667px)">
                         <source srcset="images/info.png" class="info__img">
                         <img src="images/info.png" alt="Mpassistant собирает отчеты по маркетплейсам Ozon и Widberries"
@@ -253,7 +254,11 @@
                 <ul class="about__advantages advantages">
                     <li class="advantages__advantage advantage">
                         <div class="advantage__wrapper">
-                            <img src="images/about1.svg" alt="" class="advantage__image">
+                            <picture class="advantage__images">
+                                <source srcset="images/about1.1.svg" class="advantage__image" media="(min-width: 1667px)">
+                                <source srcset="images/about1.svg" class="advantage__image">
+                                <img src="images/about1.svg" alt="Маркер заголовка" class="advantage__image">
+                            </picture>
                             <h3 class="advantage__title">Точность данных</h3>
                         </div>
                         <p class="advantage__text">Данные в отчётах сервиса полностью совпадает с данными ваших
@@ -262,7 +267,11 @@
                     </li>
                     <li class="advantages__advantage advantage">
                         <div class="advantage__wrapper">
-                            <img src="images/about2.svg" alt="" class="advantage__image">
+                            <picture class="advantage__images">
+                                <source srcset="images/about2.2.svg" class="advantage__image" media="(min-width: 1667px)">
+                                <source srcset="images/about2.svg" class="advantage__image">
+                                <img src="images/about2.svg" alt="Маркер заголовка" class="advantage__image">
+                            </picture>
                             <h3 class="advantage__title">Большой функционал</h3>
                         </div>
                         <p class="advantage__text">Полный набор инструментов для внутренней аналитики для Wildberries
@@ -271,7 +280,11 @@
                     </li>
                     <li class="advantages__advantage advantage">
                         <div class="advantage__wrapper">
-                            <img src="images/about3.svg" alt="" class="advantage__image">
+                            <picture class="advantage__images">
+                                <source srcset="images/about3.3.svg" class="advantage__image" media="(min-width: 1667px)">
+                                <source srcset="images/about3.svg" class="advantage__image">
+                                <img src="images/about3.svg" alt="Маркер заголовка" class="advantage__image">
+                            </picture>
                             <h3 class="advantage__title">Лёгкость освоения</h3>
                         </div>
                         <p class="advantage__text">Наши отчёты просты и удобны. Все отчёты имеют подробные инструкции
@@ -280,7 +293,11 @@
                     </li>
                     <li class="advantages__advantage advantage">
                         <div class="advantage__wrapper">
-                            <img src="images/about4.svg" alt="" class="advantage__image">
+                            <picture class="advantage__images">
+                                <source srcset="images/about4.4.svg" class="advantage__image" media="(min-width: 1667px)">
+                                <source srcset="images/about4.svg" class="advantage__image">
+                                <img src="images/about4.svg" alt="Маркер заголовка" class="advantage__image">
+                            </picture>
                             <h3 class="advantage__title">Подходит всем</h3>
                         </div>
                         <p class="advantage__text">Mpassistant создан селлерами для селлеров. Наш опыт в товарном
@@ -290,7 +307,11 @@
                     </li>
                     <li class="advantages__advantage advantage">
                         <div class="advantage__wrapper">
-                            <img src="images/about5.svg" alt="" class="advantage__image">
+                            <picture class="advantage__images">
+                                <source srcset="images/about5.5.svg" class="advantage__image" media="(min-width: 1667px)">
+                                <source srcset="images/about5.svg" class="advantage__image">
+                                <img src="images/about5.svg" alt="Маркер заголовка" class="advantage__image">
+                            </picture>
                             <h3 class="advantage__title">Конфиденциальность</h3>
                         </div>
                         <p class="advantage__text">Ваша конфиденциальность для нас самый главный приоритет. Все ваши
@@ -301,7 +322,11 @@
                     </li>
                     <li class="advantages__advantage advantage">
                         <div class="advantage__wrapper">
-                            <img src="images/about6.svg" alt="" class="advantage__image">
+                            <picture class="advantage__images">
+                                <source srcset="images/about6.6.svg" class="advantage__image" media="(min-width: 1667px)">
+                                <source srcset="images/about6.svg" class="advantage__image">
+                                <img src="images/about6.svg" alt="Маркер заголовка" class="advantage__image">
+                            </picture>
                             <h3 class="advantage__title">Служба заботы</h3>
                         </div>
                         <p class="advantage__text">Наша служба заботы готова решить практически любые вопросы и в режиме
@@ -355,13 +380,14 @@
                     </li>
                 </ul>
                 <ul class="subscribe__price">
-                    <li class="subscribe__card card">
+                    <li class="subscribe__card subscribe__card--start card">
                         <h3 class="card__subtitle">Стартовый</h3>
+                        <p class="card__text card__text--hidden">Текст</p>
                         <p class="card__text card__text--blue">4 999 р</p>
                         <a href="" class="card__link card__link--try">Попробовать</a>
                         <a href="" class="card__link card__link--detail">Подробнее</a>
                     </li>
-                    <li class="subscribe__card card">
+                    <li class="subscribe__card subscribe__card--start1 card">
                         <h3 class="card__subtitle">Стартовый +</h3>
                         <p class="card__text card__text--grey">4 491 р/мес</p>
                         <p class="card__text card__text--blue">13 473 р</p>
@@ -376,11 +402,13 @@
                         <a href="" class="card__link card__link--detail">Подробнее</a>
                     </li>
                     <li class="subscribe__card subscribe__card--seller card">
-                        <h3 class="card__subtitle">Начинающим селлерам с выручкой</h3>
-                        <p class="card__text card__text--grey">до 200 000 р/мес</p>
-                        <p class="card__text card__text--blue">Бесплатно</p>
-                        <a href="" class="card__link card__link--try">Попробовать</a>
-                        <a href="" class="card__link card__link--detail">Подробнее</a>
+                        <div class="card__flex1">
+                            <h3 class="card__subtitle">Начинающим селлерам с выручкой</h3>
+                            <p class="card__text card__text--grey">до 200 000 р/мес</p>
+                            <p class="card__text card__text--blue">Бесплатно</p>
+                            <a href="" class="card__link card__link--try">Попробовать</a>
+                            <a href="" class="card__link card__link--detail">Подробнее</a>
+                        </div>
                         <div class="card__images images">
                             <picture class="images__women">
                                 <source srcset="images/women4.4.png" class="images__img" media="(min-width: 1667px)">
