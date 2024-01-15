@@ -175,7 +175,67 @@ body {
     border: 1px solid #b2a6d9;
     border-radius: 4px;
 }
+.form2__wrapper {
+    width: 100%;
+    max-width: 400px;
+    margin: 10rem auto 0 auto;
+}
 
+.form2__form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5c2c2;
+}
+
+.form2__dl {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 125%;
+    text-align: center;
+    color: var(--first-color);
+}
+
+.form2__dt {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.form2__dd {
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.form2__fieldset {
+    border: none;
+}
+
+.form2__legend {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.form2__list {
+    list-style: none;
+}
+
+.form2__pseudo {
+    margin-bottom: 1rem;
+}
+
+.pseudo__label {
+    display: block;
+    margin: 1rem;
+}
+
+.pseudo__span {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 125%;
+}
+.pseudo__input {
+    margin-right: 1rem;
+}
 .footer__wrapper {
     width: 100%;
     max-width: 1280px;
@@ -372,4 +432,11 @@ label{
     outline: 2px solid var(--ninth-color);
 }
 
+.form2__pseudo:nth-child(even) .pseudo__span {
+    color: var(--tenth-color);
+}
+
+input[type=checkbox]:checked + .pseudo__label .pseudo__span{
+    text-decoration: line-through;
+  }
 
