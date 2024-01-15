@@ -10,6 +10,38 @@
     --ninth-color: #702A8A;
     --tenth-color: #1065FF;
 }
+::selection{
+    color: var(--first-color);
+    background-color: var(--seventh-color);
+}
+.dmenu__link:hover{
+    color: var(--fifth-color);
+    text-decoration: underline;
+}
+.entrance__link--log:hover{
+    color: var(--fifth-color);
+    text-decoration: underline;
+}
+.entrance__link--reg:hover{
+    color: var(--second-color);
+    text-decoration: underline;
+}
+.card__link--try:hover{
+    color: var(--first-color);
+    text-decoration: underline;
+}
+.card__link--detail:hover{
+    color: var(--fifth-color);
+    text-decoration: underline;
+}
+.users__link:hover{
+    color: var(--first-color);
+    text-decoration: underline;
+}
+.navigation__button:hover{
+    color: var(--fifth-color);
+    text-decoration: underline;
+}
 
 @font-face {
     font-display: swap;
