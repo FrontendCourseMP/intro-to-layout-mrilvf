@@ -26,56 +26,55 @@
         </div>
     </header>
     <main>
-        <section class="form">
+        <section class="form1">
             <div class="form__wrapper">
                 <form action="//httpbin.org/post" class="form__hero hero" method="post">
                     <h2 class="hero__title">Регистрация пользователя</h2>
                     <fieldset class="hero__fieldset">
-                            <label class="group__label">
-                                <span class="group__span">Имя:</span>
-                                <input type="text" class="group__input" name="name" placeholder="Введите ваше имя"
-                                required>
-                            </label>
-                            <label class="group__label">
-                                <span class="group__span">Дата рождения:</span>
-                                <input type="date" class="group__input" name="dob" required>
-                            </label>
-                            <label class="group__label">
-                                <span class="group__span">Пол:</span>
-                            </label>
-                            <label class="group__label">
-                                <input type="radio" class="group__input--radio" name="gender" required>
-                                <span class="group__span--gender">Мужской</span>
-                            </label>
-                            <label class="group__label">
-                                <input type="radio" class="group__input--radio" name="gender" required>
-                                <span class="group__span--gender">Женский</span>
-                            </label>
-                            <label class="group__label">
-                                <input type="radio" class="group__input--radio" name="gender" required>
-                                <span class="group__span--gender">Не указано</span>
-                            </label>
+                        <label class="group__label">
+                            <span class="group__span">Имя:</span>
+                            <input type="text" class="group__input" name="name" placeholder="Введите ваше имя" required>
+                        </label>
+                        <label class="group__label">
+                            <span class="group__span">Дата рождения:</span>
+                            <input type="date" class="group__input" name="dob" required>
+                        </label>
+                        <label class="group__label">
+                            <span class="group__span">Пол:</span>
+                        </label>
+                        <label class="group__label">
+                            <input type="radio" class="group__input--radio" name="gender" required>
+                            <span class="group__span--gender">Мужской</span>
+                        </label>
+                        <label class="group__label">
+                            <input type="radio" class="group__input--radio" name="gender" required>
+                            <span class="group__span--gender">Женский</span>
+                        </label>
+                        <label class="group__label">
+                            <input type="radio" class="group__input--radio" name="gender" required>
+                            <span class="group__span--gender">Не указано</span>
+                        </label>
                     </fieldset>
                     <fieldset class="hero__fieldset">
-                            <label class="group__label">
-                                <span class="group__span">Почта:</span>
-                                <input type="email" class="group__input" name="email" placeholder="Введите ваш email"
+                        <label class="group__label">
+                            <span class="group__span">Почта:</span>
+                            <input type="email" class="group__input" name="email" placeholder="Введите ваш email"
                                 required>
-                            </label>
-                            <label class="group__label">
-                                <span class="group__span">Пароль:</span>
-                                <input type="password" class="group__input" name="password"
-                                placeholder="Введите ваш пароль" required>
-                            </label>
-                            <label class="group__label">
-                                <span class="group__span">Удобный интервал для связи:</span>
-                                <select class="group__select" name="contact-time">
-                                    <option value="morning">Утро</option>
-                                    <option value="day">День</option>
-                                    <option value="evening">Вечер</option>
-                                    <option value="night">Ночь</option>
-                                </select>
-                            </label>
+                        </label>
+                        <label class="group__label">
+                            <span class="group__span">Пароль:</span>
+                            <input type="password" class="group__input" name="password" placeholder="Введите ваш пароль"
+                                required>
+                        </label>
+                        <label class="group__label">
+                            <span class="group__span">Удобный интервал для связи:</span>
+                            <select class="group__select" name="contact-time">
+                                <option value="morning">Утро</option>
+                                <option value="day">День</option>
+                                <option value="evening">Вечер</option>
+                                <option value="night">Ночь</option>
+                            </select>
+                        </label>
                     </fieldset>
                     <div class="hero__group group">
                         <button type="submit" class="group__input">Отправить</button>
@@ -84,6 +83,115 @@
                 </form>
             </div>
         </section>
+        <section class="form2">
+            <div class="form2__wrapper">
+                <form action="post" class="form2__form">
+                    <dl class="form2__dl">
+                        <dt class="form2__dt">Псевдоэлемент</dt>
+                        <dd class="form2__dd">Дополнение к селектору, с помощью которого можно стилизовать элемент, не
+                            определённый в структуре HTML документа.</dd>
+                        <dt class="form2__dt">Псевдокласс</dt>
+                        <dd class="form2__dd">это селектор, который выбирает элементы, находящиеся в специфическом
+                            состоянии, например, они являются первым элементом своего типа, или на них наведён указатель
+                            мыши.</dd>
+                    </dl>
+                    <fieldset class="form2__fieldset">
+                        <legend class="form2__legend">Псевдоэлементы</legend>
+                        <ul class="form2__list">
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::before</span>
+                                    <input type="checkbox" class="pseudo__input" name="psclass" id="::before" value="::before" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::after</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id="::after" value="::after" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::placeholder</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id="::placeholder" value="::placeholder" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::first-letter</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id="::first-letter" value="::first-letter" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::first-line</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id="::first-line" value="::first-line">
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::selection</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id="::selection" value="::selection">
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">::marker</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id="::marker" value="::marker">
+                                </label>
+                            </li>
+                        </ul>
+                    <fieldset class="form2__fieldset">
+                        <legend class="form2__legend">Псевдоклассы</legend>
+                        <ul class="form2__list">
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:root</span>
+                                    <input type="checkbox" class="pseudo__input" name="psclass" id=":root" value=":root" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:active</span>
+                                    <input type="checkbox" class="pseudo__input" name="psclass" id=":active" value=":active" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:hover</span>
+                                    <input type="checkbox" class="pseudo__input" name="psclass" id=":hover" value=":hover" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:focus</span>
+                                    <iinput type="checkbox" class="pseudo__input" name="psclass" id=":focus" value=":focus" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:checked</span>
+                                    <input type="checkbox" class="pseudo__input" name="psclass" id=":checked" value=":checked" checked>
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:not</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id=":not" value=":not">
+                                </label>
+                            </li>
+                            <li class="form2__pseudo pseudo">
+                                <label for="" class="pseudo__label">
+                                    <span class="pseudo__span">:empty</span>
+                                    <input type="checkbox" class="pseudo__input" name="pselem" id=":empty" value=":empty">
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
     </main>
     <footer class="footer">
         <div class="footer__wrapper">

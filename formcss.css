@@ -364,4 +364,12 @@ label{
 .group__label .group__input--radio:checked + .group__span--gender {
     color: var(--tenth-color);
 }
+.group__label [required] {
+    border: 1px solid var(--tenth-color);
+}
+
+.group__label [required]:focus {
+    outline: 2px solid var(--ninth-color);
+}
+
 
