@@ -419,6 +419,7 @@ body {
     width: 100%;
     padding: 1.4rem;
 }
+
 .details__button--desktop {
     font-size: 1.6rem;
     font-weight: 400;
@@ -514,7 +515,7 @@ body {
     width: 100%;
 }
 
-.info__images{
+.info__images {
     display: grid;
     justify-content: center;
 }
@@ -682,7 +683,8 @@ body {
     width: 100%;
     margin-bottom: 2.2rem;
 }
-.card__text--hidden{
+
+.card__text--hidden {
     opacity: 0;
     font-size: 1.8rem;
     font-weight: normal;
@@ -691,6 +693,7 @@ body {
     width: 100%;
     margin-bottom: 1.3rem;
 }
+
 .card__text--grey {
     font-size: 1.8rem;
     font-weight: normal;
@@ -771,6 +774,7 @@ body {
     padding: 3.7rem 2rem 4rem 2rem;
     position: relative;
     z-index: 0;
+    margin-bottom: 2rem;
 }
 
 .users__background {
@@ -824,13 +828,15 @@ body {
     background-color: var(--eighth-color);
     margin-top: 6.5rem;
 }
-.footer__flex1{
+
+.footer__flex1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap:20px;
+    gap: 20px;
 }
-.footer__flex2{
+
+.footer__flex2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -838,14 +844,16 @@ body {
     flex-wrap: wrap;
     gap: 4rem;
 }
-.footer__flex3{
+
+.footer__flex3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2.7rem;
     flex-wrap: wrap;
-    gap:2.7rem;
+    gap: 2.7rem;
 }
+
 .footer__logo {
     text-decoration: none;
 }
@@ -1057,9 +1065,6 @@ body {
     .entrance__link--reg {
         display: none;
     }
-    .hero__marketplaces--big{
-        display: none;
-    }
 
     .hero__figure {
         display: none;
@@ -1068,6 +1073,7 @@ body {
     .hero__dimg {
         display: none;
     }
+
     .details__button--desktop {
         display: none;
     }
@@ -1094,100 +1100,112 @@ body {
     .burger__img {
         display: none;
     }
-    .details__img--small{
+
+    .details__img--small {
         display: none;
     }
-    .header__wrapper{
+
+    .header__wrapper {
         padding: 3rem 16rem 0rem 16rem;
     }
 
-    .hero__wrapper{
+    .hero__wrapper {
         display: flex;
-        align-items:center;
+        align-items: center;
         justify-content: space-between;
         padding: 10rem 16rem;
 
     }
-    .hero__title{
+
+    .hero__title {
         font-size: 6rem;
     }
-    .hero__marketplaces--small{
-        display: none;
-    }
-    .hero__text{
+
+
+    .hero__text {
         font-size: 2.6rem;
     }
-    .feedback__text{
+
+    .feedback__text {
         font-size: 2rem;
     }
-    .hero__feedback{
+
+    .hero__feedback {
         max-width: 782px;
         margin-left: 0;
     }
+
     .numbers__wrapper {
         margin-bottom: 10rem;
         padding: 0rem 16rem;
 
     }
+
     .numbers__list {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 5rem 0rem;
     }
+
     .numbers__accent {
         font-size: 7rem;
     }
+
     .numbers__text {
         margin: 0;
         font-size: 2.2rem;
-        
+
     }
-    .features__wrapper{
+
+    .features__wrapper {
         padding: 0rem 16rem;
         margin-bottom: 10rem;
     }
+
     .features__title {
         font-size: 4.6rem;
         margin-bottom: 5rem;
     }
-    
+
     .features__analytics {
         list-style-type: none;
         margin-bottom: 13rem;
-    } 
+    }
+
     .analytics__checkbox {
         display: none;
     }
-    
+
     .analytics__subtitle {
         font-size: 2.6rem;
     }
-    
+
     .analytics__details {
         display: flex;
         gap: 3rem;
         padding: 6rem 4rem;
     }
-    
+
     .details__subtitle {
         font-size: 3rem;
     }
-    
+
     /* .details__tools{
     
     } */
     .details__item {
         list-style-type: none;
     }
-    
+
     /* .details__ellipse{
     
     } */
     .details__text {
         font-size: 2.2rem;
     }
-    .features__feedback{
+
+    .features__feedback {
         padding: 0rem 4rem;
         border-radius: 20px;
         display: flex;
@@ -1198,11 +1216,12 @@ body {
     .details__img {
         border-radius: 10px;
     }
-    
+
     .details__button--mobile {
         display: none;
     }
-    .about__feedback{
+
+    .about__feedback {
         padding: 0rem 4rem;
         border-radius: 20px;
         display: flex;
@@ -1210,16 +1229,18 @@ body {
         align-items: center;
     }
 
-    
+
     .feedback__title {
         font-size: 4.6rem;
         margin-bottom: 3.3rem;
     }
-    .feedback__text{
+
+    .feedback__text {
         font-size: 2.1rem;
         margin-bottom: 4rem;
     }
-    .feedback__button--submit{
+
+    .feedback__button--submit {
         font-size: 1.8rem;
     }
 
@@ -1231,61 +1252,75 @@ body {
         padding: 0rem 16rem;
         margin-bottom: 10rem;
     }
+
     .info__title {
         font-size: 4.6rem;
         margin-bottom: 4.5rem;
     }
+
     .info__text {
         font-size: 2.6rem;
     }
+
     .offer__item {
         padding: 4rem;
     }
-    
+
     .offer__text {
         font-size: 2.6rem;
     }
+
     .about__wrapper {
         padding: 0rem 16rem;
         margin-bottom: 10rem;
     }
+
     .about__title {
         font-size: 4.6rem;
     }
-    .about__advantages{
+
+    .about__advantages {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         margin-bottom: 13rem;
     }
-    .advantages__advantage{
+
+    .advantages__advantage {
         padding: 4rem;
     }
-    .advantage__wrapper{
+
+    .advantage__wrapper {
         margin-bottom: 2.7rem;
-        align-items:start
+        align-items: start
     }
+
     .advantage__title {
         font-size: 3rem;
         margin-bottom: 2.7rem;
     }
+
     .advantage__text {
         font-family: 2.2rem;
     }
-    
+
     .subscribe__wrapper {
         padding: 0rem 16rem;
         margin-bottom: 10rem;
     }
+
     .subscribe__title {
         font-size: 4.6rem;
         margin-bottom: 5rem;
-        
+
     }
+
     .subscribe__list {
-        gap:4rem
+        gap: 4rem
     }
+
     .month__subtitle {
         font-size: 1.8rem;
     }
+
     .subscribe__price {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1294,21 +1329,25 @@ body {
         row-gap: 7rem;
         justify-content: space-between;
     }
+
     .subscribe__card--start {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         padding: 5rem 4rem;
     }
+
     .subscribe__card--start1 {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         padding: 5rem 4rem;
     }
+
     .subscribe__card--pro {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
         padding: 5rem 4rem;
     }
+
     .subscribe__card--seller {
         grid-column: 1 / 4;
         grid-row: 2 / 2;
@@ -1317,55 +1356,96 @@ body {
         align-items: center;
         padding: 5rem 4rem 0rem 4rem;
     }
+
     .card__subtitle {
         font-size: 2.6rem;
     }
+
     .card__text--blue {
         font-size: 3rem;
     }
+
     .card__link {
         font-size: 1.8rem;
-        
+
     }
-    .card__link--try {
-    }
-    .card__link--detail {
-    }
+
+    .card__link--try {}
+
+    .card__link--detail {}
+
     .card__text--grey {
         font-size: 2.2rem;
     }
-    .card__images {
-    }
-    .images {
-    }
-    .images__women {
-    }
-    .images__img {
+
+    .reviews__wrapper {
+        padding: 0rem 16rem;
+        margin-bottom: 10rem;
     }
 
+    .reviews__title {
+        font-size: 4.6rem;
+        margin-bottom: 4.8rem;
+    }
 
-    .footer__flex2{
+    .reviews__users {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 4rem;
+    }
+
+    .users__item {
+        margin: 0;
+    }
+
+    .users__blockquote {}
+
+    .blockquote {}
+
+    .blockquote__text {
+        font-size: 2.2rem;
+    }
+
+    .blockquote__cite {
+        font-size: 2.6rem;
+    }
+
+    .users__link {
+        font-size: 2.4rem;
+    }
+
+    .users__img {}
+
+
+    .footer__flex2 {
         flex-direction: row-reverse;
     }
+
     .service__subtitle {
         font-size: 2.2rem;
     }
-    .clients__subtitle{
+
+    .clients__subtitle {
         font-size: 2.2rem;
     }
-    .documentation__subtitle{
+
+    .documentation__subtitle {
         font-size: 2.2rem;
     }
-    .navigation__button{
+
+    .navigation__button {
         font-size: 2.2rem;
     }
-    .footer__copyright{
+
+    .footer__copyright {
         font-size: 20px;
     }
-    .footer__text{
+
+    .footer__text {
         font-size: 20px;
     }
-    .footer__designer{
+
+    .footer__designer {
         font-size: 20px;
     }
 
