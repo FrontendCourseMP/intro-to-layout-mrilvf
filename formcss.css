@@ -350,3 +350,18 @@ body {
 .footer__designer--green {
     color: var(--fifth-color);
 }
+.logo__img:hover {
+    transform: rotate(30deg) scale(1.5) skew(10deg, 10deg);
+}
+
+label{
+    cursor: pointer;
+}
+
+.group__label:focus-within {
+    color: var(--second-color);
+}
+.group__label .group__input--radio:checked + .group__span--gender {
+    color: var(--tenth-color);
+}
+
