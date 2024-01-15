@@ -26,11 +26,11 @@
         </div>
     </header>
     <main>
-        <section class="form1">
+        <section class="form">
             <div class="form__wrapper">
                 <form action="//httpbin.org/post" class="form__hero hero" method="post">
                     <h2 class="hero__title">Регистрация пользователя</h2>
-                    <fieldset class="hero__fieldset">
+                    <fieldset class="hero__group group">
                         <label class="group__label">
                             <span class="group__span">Имя:</span>
                             <input type="text" class="group__input" name="name" placeholder="Введите ваше имя" required>
@@ -43,19 +43,19 @@
                             <span class="group__span">Пол:</span>
                         </label>
                         <label class="group__label">
-                            <input type="radio" class="group__input--radio" name="gender" required>
-                            <span class="group__span--gender">Мужской</span>
+                            <input type="radio" class="group__input group__input--radio" name="gender" required>
+                            <span class="group__span group__span--gender">Мужской</span>
                         </label>
                         <label class="group__label">
-                            <input type="radio" class="group__input--radio" name="gender" required>
-                            <span class="group__span--gender">Женский</span>
+                            <input type="radio" class="group__input group__input--radio" name="gender" required>
+                            <span class="group__span group__span--gender">Женский</span>
                         </label>
                         <label class="group__label">
-                            <input type="radio" class="group__input--radio" name="gender" required>
-                            <span class="group__span--gender">Не указано</span>
+                            <input type="radio" class="group__input group__input--radio" name="gender" required>
+                            <span class="group__span group__span--gender">Не указано</span>
                         </label>
                     </fieldset>
-                    <fieldset class="hero__fieldset">
+                    <fieldset class="hero__group group">
                         <label class="group__label">
                             <span class="group__span">Почта:</span>
                             <input type="email" class="group__input" name="email" placeholder="Введите ваш email"
