@@ -410,6 +410,8 @@ body {
 .footer__designer--green {
     color: var(--fifth-color);
 }
+
+
 .logo__img:hover {
     transform: rotate(30deg) scale(1.5) skew(10deg, 10deg);
 }
@@ -418,6 +420,25 @@ label{
     cursor: pointer;
 }
 
+dt::first-letter{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+dd::before{
+    content: '\01F6C8';
+    color: var(--first-color);
+    margin-right: 1rem;
+}
+dt::first-letter{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+dd::before{
+    font-size: 2rem;
+    content: '\01F6C8';
+    color: var(--first-color);
+    margin-right: 1rem;
+}
 .group__label:focus-within {
     color: var(--second-color);
 }
